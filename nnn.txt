@@ -1,0 +1,1922 @@
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+      1 0.000000000    a2:19:52:a1:10:1a     Broadcast             a2:19:52:a1:10:1a ARP      60     ff:ff:ff:ff:ff:ff Who has 10.10.0.1? Tell 10.10.0.10
+
+Frame 1: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: a2:19:52:a1:10:1a (a2:19:52:a1:10:1a), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+      2 0.000199121    2a:89:5b:62:44:f2     a2:19:52:a1:10:1a     2a:89:5b:62:44:f2 ARP      60     a2:19:52:a1:10:1a 10.10.0.1 is at 2a:89:5b:62:44:f2
+
+Frame 2: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2), Dst: a2:19:52:a1:10:1a (a2:19:52:a1:10:1a)
+Address Resolution Protocol (reply)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+      3 0.000465697    10.10.0.10            8.8.8.8               a2:19:52:a1:10:1a DNS      81     2a:89:5b:62:44:f2 Standard query 0x76fd A proxy.tpfinal-tyr.com
+
+Frame 3: 81 bytes on wire (648 bits), 81 bytes captured (648 bits) on interface eth0, id 0
+Ethernet II, Src: a2:19:52:a1:10:1a (a2:19:52:a1:10:1a), Dst: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2)
+Internet Protocol Version 4, Src: 10.10.0.10, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 54540, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+      4 0.000567196    2a:89:5b:62:44:f2     Broadcast             2a:89:5b:62:44:f2 ARP      60     ff:ff:ff:ff:ff:ff Who has 10.10.0.100? Tell 10.10.0.1
+
+Frame 4: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+      5 0.000655801    b6:0c:f9:58:64:27     2a:89:5b:62:44:f2     b6:0c:f9:58:64:27 ARP      60     2a:89:5b:62:44:f2 10.10.0.100 is at b6:0c:f9:58:64:27
+
+Frame 5: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: b6:0c:f9:58:64:27 (b6:0c:f9:58:64:27), Dst: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2)
+Address Resolution Protocol (reply)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+      6 0.000774532    10.10.0.10            8.8.8.8               2a:89:5b:62:44:f2 DNS      81     b6:0c:f9:58:64:27 Standard query 0x76fd A proxy.tpfinal-tyr.com
+
+Frame 6: 81 bytes on wire (648 bits), 81 bytes captured (648 bits) on interface eth0, id 0
+Ethernet II, Src: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2), Dst: b6:0c:f9:58:64:27 (b6:0c:f9:58:64:27)
+Internet Protocol Version 4, Src: 10.10.0.10, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 54540, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+      7 0.002095542    b6:0c:f9:58:64:27     Broadcast             b6:0c:f9:58:64:27 ARP      60     ff:ff:ff:ff:ff:ff Who has 10.10.0.10? Tell 10.10.0.100
+
+Frame 7: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: b6:0c:f9:58:64:27 (b6:0c:f9:58:64:27), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+      8 0.002184748    a2:19:52:a1:10:1a     b6:0c:f9:58:64:27     a2:19:52:a1:10:1a ARP      60     b6:0c:f9:58:64:27 10.10.0.10 is at a2:19:52:a1:10:1a
+
+Frame 8: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: a2:19:52:a1:10:1a (a2:19:52:a1:10:1a), Dst: b6:0c:f9:58:64:27 (b6:0c:f9:58:64:27)
+Address Resolution Protocol (reply)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+      9 0.002284514    8.8.8.8               10.10.0.10            b6:0c:f9:58:64:27 DNS      97     a2:19:52:a1:10:1a Standard query response 0x76fd A proxy.tpfinal-tyr.com A 10.10.0.1
+
+Frame 9: 97 bytes on wire (776 bits), 97 bytes captured (776 bits) on interface eth0, id 0
+Ethernet II, Src: b6:0c:f9:58:64:27 (b6:0c:f9:58:64:27), Dst: a2:19:52:a1:10:1a (a2:19:52:a1:10:1a)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 10.10.0.10
+User Datagram Protocol, Src Port: 53, Dst Port: 54540
+Domain Name System (response)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     10 0.002549567    10.10.0.10            8.8.8.8               a2:19:52:a1:10:1a DNS      81     2a:89:5b:62:44:f2 Standard query 0xf7fb AAAA proxy.tpfinal-tyr.com
+
+Frame 10: 81 bytes on wire (648 bits), 81 bytes captured (648 bits) on interface eth0, id 0
+Ethernet II, Src: a2:19:52:a1:10:1a (a2:19:52:a1:10:1a), Dst: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2)
+Internet Protocol Version 4, Src: 10.10.0.10, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 54540, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     11 0.002653561    10.10.0.10            8.8.8.8               2a:89:5b:62:44:f2 DNS      81     b6:0c:f9:58:64:27 Standard query 0xf7fb AAAA proxy.tpfinal-tyr.com
+
+Frame 11: 81 bytes on wire (648 bits), 81 bytes captured (648 bits) on interface eth0, id 0
+Ethernet II, Src: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2), Dst: b6:0c:f9:58:64:27 (b6:0c:f9:58:64:27)
+Internet Protocol Version 4, Src: 10.10.0.10, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 54540, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     12 0.003363663    8.8.8.8               10.10.0.10            b6:0c:f9:58:64:27 DNS      126    a2:19:52:a1:10:1a Standard query response 0xf7fb AAAA proxy.tpfinal-tyr.com SOA dns.tpfinal-tyr.com
+
+Frame 12: 126 bytes on wire (1008 bits), 126 bytes captured (1008 bits) on interface eth0, id 0
+Ethernet II, Src: b6:0c:f9:58:64:27 (b6:0c:f9:58:64:27), Dst: a2:19:52:a1:10:1a (a2:19:52:a1:10:1a)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 10.10.0.10
+User Datagram Protocol, Src Port: 53, Dst Port: 54540
+Domain Name System (response)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     13 0.003705489    10.10.0.10            10.10.0.1             a2:19:52:a1:10:1a TCP      74     2a:89:5b:62:44:f2 43018 → 3128 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 SACK_PERM TSval=3865731839 TSecr=0 WS=128
+
+Frame 13: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface eth0, id 0
+Ethernet II, Src: a2:19:52:a1:10:1a (a2:19:52:a1:10:1a), Dst: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2)
+Internet Protocol Version 4, Src: 10.10.0.10, Dst: 10.10.0.1
+Transmission Control Protocol, Src Port: 43018, Dst Port: 3128, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     14 0.003834019    10.10.0.1             10.10.0.10            2a:89:5b:62:44:f2 TCP      74     a2:19:52:a1:10:1a 3128 → 43018 [SYN, ACK] Seq=0 Ack=1 Win=65160 Len=0 MSS=1460 SACK_PERM TSval=3185433764 TSecr=3865731839 WS=128
+
+Frame 14: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface eth0, id 0
+Ethernet II, Src: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2), Dst: a2:19:52:a1:10:1a (a2:19:52:a1:10:1a)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 10.10.0.10
+Transmission Control Protocol, Src Port: 3128, Dst Port: 43018, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     15 0.004598272    10.10.0.10            10.10.0.1             a2:19:52:a1:10:1a TCP      66     2a:89:5b:62:44:f2 43018 → 3128 [ACK] Seq=1 Ack=1 Win=64256 Len=0 TSval=3865731839 TSecr=3185433764
+
+Frame 15: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth0, id 0
+Ethernet II, Src: a2:19:52:a1:10:1a (a2:19:52:a1:10:1a), Dst: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2)
+Internet Protocol Version 4, Src: 10.10.0.10, Dst: 10.10.0.1
+Transmission Control Protocol, Src Port: 43018, Dst Port: 3128, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     16 0.005011631    10.10.0.10            10.10.0.1             a2:19:52:a1:10:1a HTTP     311    2a:89:5b:62:44:f2 GET http://www.tpfinal-tyr.com/ HTTP/1.0 
+
+Frame 16: 311 bytes on wire (2488 bits), 311 bytes captured (2488 bits) on interface eth0, id 0
+Ethernet II, Src: a2:19:52:a1:10:1a (a2:19:52:a1:10:1a), Dst: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2)
+Internet Protocol Version 4, Src: 10.10.0.10, Dst: 10.10.0.1
+Transmission Control Protocol, Src Port: 43018, Dst Port: 3128, Seq: 1, Ack: 1, Len: 245
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     17 0.005279941    10.10.0.1             8.8.8.8               2a:89:5b:62:44:f2 DNS      83     b6:0c:f9:58:64:27 Standard query 0xe717 PTR 10.0.10.10.in-addr.arpa
+
+Frame 17: 83 bytes on wire (664 bits), 83 bytes captured (664 bits) on interface eth0, id 0
+Ethernet II, Src: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2), Dst: b6:0c:f9:58:64:27 (b6:0c:f9:58:64:27)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 41929, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     18 0.005369287    10.10.0.1             10.10.0.10            2a:89:5b:62:44:f2 TCP      66     a2:19:52:a1:10:1a 3128 → 43018 [ACK] Seq=1 Ack=246 Win=65024 Len=0 TSval=3185433765 TSecr=3865731840
+
+Frame 18: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth0, id 0
+Ethernet II, Src: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2), Dst: a2:19:52:a1:10:1a (a2:19:52:a1:10:1a)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 10.10.0.10
+Transmission Control Protocol, Src Port: 3128, Dst Port: 43018, Seq: 1, Ack: 246, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     19 0.005568678    10.10.0.1             8.8.8.8               2a:89:5b:62:44:f2 DNS      79     b6:0c:f9:58:64:27 Standard query 0xa7e2 A www.tpfinal-tyr.com
+
+Frame 19: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface eth0, id 0
+Ethernet II, Src: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2), Dst: b6:0c:f9:58:64:27 (b6:0c:f9:58:64:27)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 41929, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     20 0.006220883    8.8.8.8               10.10.0.1             b6:0c:f9:58:64:27 DNS      133    2a:89:5b:62:44:f2 Standard query response 0xe717 No such name PTR 10.0.10.10.in-addr.arpa SOA 10.IN-ADDR.ARPA
+
+Frame 20: 133 bytes on wire (1064 bits), 133 bytes captured (1064 bits) on interface eth0, id 0
+Ethernet II, Src: b6:0c:f9:58:64:27 (b6:0c:f9:58:64:27), Dst: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 10.10.0.1
+User Datagram Protocol, Src Port: 53, Dst Port: 41929
+Domain Name System (response)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     21 0.006702990    8.8.8.8               10.10.0.1             b6:0c:f9:58:64:27 DNS      95     2a:89:5b:62:44:f2 Standard query response 0xa7e2 A www.tpfinal-tyr.com A 12.12.0.11
+
+Frame 21: 95 bytes on wire (760 bits), 95 bytes captured (760 bits) on interface eth0, id 0
+Ethernet II, Src: b6:0c:f9:58:64:27 (b6:0c:f9:58:64:27), Dst: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 10.10.0.1
+User Datagram Protocol, Src Port: 53, Dst Port: 41929
+Domain Name System (response)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     22 0.007111411    10.10.0.1             12.12.0.11            2a:89:5b:62:44:f2 TCP      74     b6:0c:f9:58:64:27 47548 → 80 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 SACK_PERM TSval=1575292112 TSecr=0 WS=128
+
+Frame 22: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface eth0, id 0
+Ethernet II, Src: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2), Dst: b6:0c:f9:58:64:27 (b6:0c:f9:58:64:27)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 12.12.0.11
+Transmission Control Protocol, Src Port: 47548, Dst Port: 80, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     23 0.008307648    12.12.0.11            10.10.0.1             b6:0c:f9:58:64:27 TCP      74     2a:89:5b:62:44:f2 80 → 47548 [SYN, ACK] Seq=0 Ack=1 Win=65160 Len=0 MSS=1460 SACK_PERM TSval=1709114237 TSecr=1575292112 WS=128
+
+Frame 23: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface eth0, id 0
+Ethernet II, Src: b6:0c:f9:58:64:27 (b6:0c:f9:58:64:27), Dst: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2)
+Internet Protocol Version 4, Src: 12.12.0.11, Dst: 10.10.0.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 47548, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     24 0.008478596    10.10.0.1             12.12.0.11            2a:89:5b:62:44:f2 TCP      66     b6:0c:f9:58:64:27 47548 → 80 [ACK] Seq=1 Ack=1 Win=64256 Len=0 TSval=1575292113 TSecr=1709114237
+
+Frame 24: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth0, id 0
+Ethernet II, Src: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2), Dst: b6:0c:f9:58:64:27 (b6:0c:f9:58:64:27)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 12.12.0.11
+Transmission Control Protocol, Src Port: 47548, Dst Port: 80, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     25 0.008798081    10.10.0.1             12.12.0.11            2a:89:5b:62:44:f2 ICMP     78     b6:0c:f9:58:64:27 Echo (ping) request  id=0x4c00, seq=256/1, ttl=64 (reply in 27)
+
+Frame 25: 78 bytes on wire (624 bits), 78 bytes captured (624 bits) on interface eth0, id 0
+Ethernet II, Src: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2), Dst: b6:0c:f9:58:64:27 (b6:0c:f9:58:64:27)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 12.12.0.11
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     26 0.009350820    10.10.0.1             12.12.0.11            2a:89:5b:62:44:f2 HTTP     413    b6:0c:f9:58:64:27 GET / HTTP/1.1 
+
+Frame 26: 413 bytes on wire (3304 bits), 413 bytes captured (3304 bits) on interface eth0, id 0
+Ethernet II, Src: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2), Dst: b6:0c:f9:58:64:27 (b6:0c:f9:58:64:27)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 12.12.0.11
+Transmission Control Protocol, Src Port: 47548, Dst Port: 80, Seq: 1, Ack: 1, Len: 347
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     27 0.009566823    12.12.0.11            10.10.0.1             b6:0c:f9:58:64:27 ICMP     78     2a:89:5b:62:44:f2 Echo (ping) reply    id=0x4c00, seq=256/1, ttl=62 (request in 25)
+
+Frame 27: 78 bytes on wire (624 bits), 78 bytes captured (624 bits) on interface eth0, id 0
+Ethernet II, Src: b6:0c:f9:58:64:27 (b6:0c:f9:58:64:27), Dst: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2)
+Internet Protocol Version 4, Src: 12.12.0.11, Dst: 10.10.0.1
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     28 0.011087644    12.12.0.11            10.10.0.1             b6:0c:f9:58:64:27 TCP      66     2a:89:5b:62:44:f2 80 → 47548 [ACK] Seq=1 Ack=348 Win=64896 Len=0 TSval=1709114239 TSecr=1575292114
+
+Frame 28: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth0, id 0
+Ethernet II, Src: b6:0c:f9:58:64:27 (b6:0c:f9:58:64:27), Dst: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2)
+Internet Protocol Version 4, Src: 12.12.0.11, Dst: 10.10.0.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 47548, Seq: 1, Ack: 348, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     29 0.011784161    12.12.0.11            10.10.0.1             b6:0c:f9:58:64:27 HTTP     559    2a:89:5b:62:44:f2 HTTP/1.1 200 OK  (text/html)
+
+Frame 29: 559 bytes on wire (4472 bits), 559 bytes captured (4472 bits) on interface eth0, id 0
+Ethernet II, Src: b6:0c:f9:58:64:27 (b6:0c:f9:58:64:27), Dst: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2)
+Internet Protocol Version 4, Src: 12.12.0.11, Dst: 10.10.0.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 47548, Seq: 1, Ack: 348, Len: 493
+Hypertext Transfer Protocol
+Line-based text data: text/html (10 lines)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     30 0.011974315    10.10.0.1             12.12.0.11            2a:89:5b:62:44:f2 TCP      66     b6:0c:f9:58:64:27 47548 → 80 [ACK] Seq=348 Ack=494 Win=64128 Len=0 TSval=1575292117 TSecr=1709114240
+
+Frame 30: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth0, id 0
+Ethernet II, Src: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2), Dst: b6:0c:f9:58:64:27 (b6:0c:f9:58:64:27)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 12.12.0.11
+Transmission Control Protocol, Src Port: 47548, Dst Port: 80, Seq: 348, Ack: 494, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     31 0.012146255    12.12.0.11            10.10.0.1             b6:0c:f9:58:64:27 TCP      66     2a:89:5b:62:44:f2 80 → 47548 [FIN, ACK] Seq=494 Ack=348 Win=64896 Len=0 TSval=1709114240 TSecr=1575292114
+
+Frame 31: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth0, id 0
+Ethernet II, Src: b6:0c:f9:58:64:27 (b6:0c:f9:58:64:27), Dst: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2)
+Internet Protocol Version 4, Src: 12.12.0.11, Dst: 10.10.0.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 47548, Seq: 494, Ack: 348, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     32 0.012435273    10.10.0.1             12.12.0.11            2a:89:5b:62:44:f2 TCP      66     b6:0c:f9:58:64:27 47548 → 80 [FIN, ACK] Seq=348 Ack=494 Win=64128 Len=0 TSval=1575292117 TSecr=1709114240
+
+Frame 32: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth0, id 0
+Ethernet II, Src: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2), Dst: b6:0c:f9:58:64:27 (b6:0c:f9:58:64:27)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 12.12.0.11
+Transmission Control Protocol, Src Port: 47548, Dst Port: 80, Seq: 348, Ack: 494, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     33 0.020250404    10.10.0.1             10.10.0.10            2a:89:5b:62:44:f2 TCP      506    a2:19:52:a1:10:1a 3128 → 43018 [PSH, ACK] Seq=1 Ack=246 Win=65024 Len=440 TSval=3185433772 TSecr=3865731840 [TCP segment of a reassembled PDU]
+
+Frame 33: 506 bytes on wire (4048 bits), 506 bytes captured (4048 bits) on interface eth0, id 0
+Ethernet II, Src: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2), Dst: a2:19:52:a1:10:1a (a2:19:52:a1:10:1a)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 10.10.0.10
+Transmission Control Protocol, Src Port: 3128, Dst Port: 43018, Seq: 1, Ack: 246, Len: 440
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     34 0.020489129    10.10.0.10            10.10.0.1             a2:19:52:a1:10:1a TCP      66     2a:89:5b:62:44:f2 43018 → 3128 [ACK] Seq=246 Ack=441 Win=64128 Len=0 TSval=3865731848 TSecr=3185433772
+
+Frame 34: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth0, id 0
+Ethernet II, Src: a2:19:52:a1:10:1a (a2:19:52:a1:10:1a), Dst: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2)
+Internet Protocol Version 4, Src: 10.10.0.10, Dst: 10.10.0.1
+Transmission Control Protocol, Src Port: 43018, Dst Port: 3128, Seq: 246, Ack: 441, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     35 0.020660728    12.12.0.11            10.10.0.1             b6:0c:f9:58:64:27 TCP      66     2a:89:5b:62:44:f2 80 → 47548 [ACK] Seq=495 Ack=349 Win=64896 Len=0 TSval=1709114249 TSecr=1575292117
+
+Frame 35: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth0, id 0
+Ethernet II, Src: b6:0c:f9:58:64:27 (b6:0c:f9:58:64:27), Dst: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2)
+Internet Protocol Version 4, Src: 12.12.0.11, Dst: 10.10.0.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 47548, Seq: 495, Ack: 349, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     36 0.020768409    10.10.0.1             10.10.0.10            2a:89:5b:62:44:f2 HTTP     259    a2:19:52:a1:10:1a HTTP/1.1 200 OK  (text/html)
+
+Frame 36: 259 bytes on wire (2072 bits), 259 bytes captured (2072 bits) on interface eth0, id 0
+Ethernet II, Src: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2), Dst: a2:19:52:a1:10:1a (a2:19:52:a1:10:1a)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 10.10.0.10
+Transmission Control Protocol, Src Port: 3128, Dst Port: 43018, Seq: 441, Ack: 246, Len: 193
+[2 Reassembled TCP Segments (633 bytes): #33(440), #36(193)]
+Hypertext Transfer Protocol
+Line-based text data: text/html (10 lines)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     37 0.020863797    10.10.0.10            10.10.0.1             a2:19:52:a1:10:1a TCP      66     2a:89:5b:62:44:f2 43018 → 3128 [ACK] Seq=246 Ack=634 Win=64128 Len=0 TSval=3865731856 TSecr=3185433772
+
+Frame 37: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth0, id 0
+Ethernet II, Src: a2:19:52:a1:10:1a (a2:19:52:a1:10:1a), Dst: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2)
+Internet Protocol Version 4, Src: 10.10.0.10, Dst: 10.10.0.1
+Transmission Control Protocol, Src Port: 43018, Dst Port: 3128, Seq: 246, Ack: 634, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     38 0.020956649    10.10.0.1             10.10.0.10            2a:89:5b:62:44:f2 TCP      66     a2:19:52:a1:10:1a 3128 → 43018 [FIN, ACK] Seq=634 Ack=246 Win=65024 Len=0 TSval=3185433772 TSecr=3865731840
+
+Frame 38: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth0, id 0
+Ethernet II, Src: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2), Dst: a2:19:52:a1:10:1a (a2:19:52:a1:10:1a)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 10.10.0.10
+Transmission Control Protocol, Src Port: 3128, Dst Port: 43018, Seq: 634, Ack: 246, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     39 0.021309005    10.10.0.1             12.12.0.11            2a:89:5b:62:44:f2 TCP      66     b6:0c:f9:58:64:27 47548 → 80 [ACK] Seq=349 Ack=495 Win=64128 Len=0 TSval=1575292118 TSecr=1709114240
+
+Frame 39: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth0, id 0
+Ethernet II, Src: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2), Dst: b6:0c:f9:58:64:27 (b6:0c:f9:58:64:27)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 12.12.0.11
+Transmission Control Protocol, Src Port: 47548, Dst Port: 80, Seq: 349, Ack: 495, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     40 0.021427917    10.10.0.1             10.10.0.10            2a:89:5b:62:44:f2 TCP      66     a2:19:52:a1:10:1a [TCP Retransmission] 3128 → 43018 [FIN, ACK] Seq=634 Ack=246 Win=65024 Len=0 TSval=3185433777 TSecr=3865731840
+
+Frame 40: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth0, id 0
+Ethernet II, Src: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2), Dst: a2:19:52:a1:10:1a (a2:19:52:a1:10:1a)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 10.10.0.10
+Transmission Control Protocol, Src Port: 3128, Dst Port: 43018, Seq: 634, Ack: 246, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     41 0.021555024    10.10.0.10            10.10.0.1             a2:19:52:a1:10:1a TCP      78     2a:89:5b:62:44:f2 43018 → 3128 [ACK] Seq=246 Ack=635 Win=64128 Len=0 TSval=3865731857 TSecr=3185433777 SLE=634 SRE=635
+
+Frame 41: 78 bytes on wire (624 bits), 78 bytes captured (624 bits) on interface eth0, id 0
+Ethernet II, Src: a2:19:52:a1:10:1a (a2:19:52:a1:10:1a), Dst: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2)
+Internet Protocol Version 4, Src: 10.10.0.10, Dst: 10.10.0.1
+Transmission Control Protocol, Src Port: 43018, Dst Port: 3128, Seq: 246, Ack: 635, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     42 0.024537176    10.10.0.10            10.10.0.1             a2:19:52:a1:10:1a TCP      66     2a:89:5b:62:44:f2 43018 → 3128 [FIN, ACK] Seq=246 Ack=635 Win=64128 Len=0 TSval=3865731860 TSecr=3185433777
+
+Frame 42: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth0, id 0
+Ethernet II, Src: a2:19:52:a1:10:1a (a2:19:52:a1:10:1a), Dst: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2)
+Internet Protocol Version 4, Src: 10.10.0.10, Dst: 10.10.0.1
+Transmission Control Protocol, Src Port: 43018, Dst Port: 3128, Seq: 246, Ack: 635, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     43 0.024632954    10.10.0.1             10.10.0.10            2a:89:5b:62:44:f2 TCP      66     a2:19:52:a1:10:1a 3128 → 43018 [ACK] Seq=635 Ack=247 Win=65024 Len=0 TSval=3185433785 TSecr=3865731860
+
+Frame 43: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth0, id 0
+Ethernet II, Src: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2), Dst: a2:19:52:a1:10:1a (a2:19:52:a1:10:1a)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 10.10.0.10
+Transmission Control Protocol, Src Port: 3128, Dst Port: 43018, Seq: 635, Ack: 247, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     44 0.028716798    10.10.0.10            8.8.8.8               a2:19:52:a1:10:1a DNS      81     2a:89:5b:62:44:f2 Standard query 0xbc75 A proxy.tpfinal-tyr.com
+
+Frame 44: 81 bytes on wire (648 bits), 81 bytes captured (648 bits) on interface eth0, id 0
+Ethernet II, Src: a2:19:52:a1:10:1a (a2:19:52:a1:10:1a), Dst: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2)
+Internet Protocol Version 4, Src: 10.10.0.10, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 34664, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     45 0.029039108    10.10.0.10            8.8.8.8               2a:89:5b:62:44:f2 DNS      81     b6:0c:f9:58:64:27 Standard query 0xbc75 A proxy.tpfinal-tyr.com
+
+Frame 45: 81 bytes on wire (648 bits), 81 bytes captured (648 bits) on interface eth0, id 0
+Ethernet II, Src: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2), Dst: b6:0c:f9:58:64:27 (b6:0c:f9:58:64:27)
+Internet Protocol Version 4, Src: 10.10.0.10, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 34664, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     46 0.029458459    8.8.8.8               10.10.0.10            b6:0c:f9:58:64:27 DNS      97     a2:19:52:a1:10:1a Standard query response 0xbc75 A proxy.tpfinal-tyr.com A 10.10.0.1
+
+Frame 46: 97 bytes on wire (776 bits), 97 bytes captured (776 bits) on interface eth0, id 0
+Ethernet II, Src: b6:0c:f9:58:64:27 (b6:0c:f9:58:64:27), Dst: a2:19:52:a1:10:1a (a2:19:52:a1:10:1a)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 10.10.0.10
+User Datagram Protocol, Src Port: 53, Dst Port: 34664
+Domain Name System (response)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     47 0.029566891    10.10.0.10            8.8.8.8               a2:19:52:a1:10:1a DNS      81     2a:89:5b:62:44:f2 Standard query 0x5476 AAAA proxy.tpfinal-tyr.com
+
+Frame 47: 81 bytes on wire (648 bits), 81 bytes captured (648 bits) on interface eth0, id 0
+Ethernet II, Src: a2:19:52:a1:10:1a (a2:19:52:a1:10:1a), Dst: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2)
+Internet Protocol Version 4, Src: 10.10.0.10, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 34664, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     48 0.030116434    10.10.0.10            8.8.8.8               2a:89:5b:62:44:f2 DNS      81     b6:0c:f9:58:64:27 Standard query 0x5476 AAAA proxy.tpfinal-tyr.com
+
+Frame 48: 81 bytes on wire (648 bits), 81 bytes captured (648 bits) on interface eth0, id 0
+Ethernet II, Src: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2), Dst: b6:0c:f9:58:64:27 (b6:0c:f9:58:64:27)
+Internet Protocol Version 4, Src: 10.10.0.10, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 34664, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     49 0.030229224    8.8.8.8               10.10.0.10            b6:0c:f9:58:64:27 DNS      126    a2:19:52:a1:10:1a Standard query response 0x5476 AAAA proxy.tpfinal-tyr.com SOA dns.tpfinal-tyr.com
+
+Frame 49: 126 bytes on wire (1008 bits), 126 bytes captured (1008 bits) on interface eth0, id 0
+Ethernet II, Src: b6:0c:f9:58:64:27 (b6:0c:f9:58:64:27), Dst: a2:19:52:a1:10:1a (a2:19:52:a1:10:1a)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 10.10.0.10
+User Datagram Protocol, Src Port: 53, Dst Port: 34664
+Domain Name System (response)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     50 0.030413658    10.10.0.10            10.10.0.1             a2:19:52:a1:10:1a TCP      74     2a:89:5b:62:44:f2 43024 → 3128 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 SACK_PERM TSval=3865731866 TSecr=0 WS=128
+
+Frame 50: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface eth0, id 0
+Ethernet II, Src: a2:19:52:a1:10:1a (a2:19:52:a1:10:1a), Dst: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2)
+Internet Protocol Version 4, Src: 10.10.0.10, Dst: 10.10.0.1
+Transmission Control Protocol, Src Port: 43024, Dst Port: 3128, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     51 0.030523913    10.10.0.1             10.10.0.10            2a:89:5b:62:44:f2 TCP      74     a2:19:52:a1:10:1a 3128 → 43024 [SYN, ACK] Seq=0 Ack=1 Win=65160 Len=0 MSS=1460 SACK_PERM TSval=3185433791 TSecr=3865731866 WS=128
+
+Frame 51: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface eth0, id 0
+Ethernet II, Src: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2), Dst: a2:19:52:a1:10:1a (a2:19:52:a1:10:1a)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 10.10.0.10
+Transmission Control Protocol, Src Port: 3128, Dst Port: 43024, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     52 0.030751426    10.10.0.10            10.10.0.1             a2:19:52:a1:10:1a TCP      66     2a:89:5b:62:44:f2 43024 → 3128 [ACK] Seq=1 Ack=1 Win=64256 Len=0 TSval=3865731866 TSecr=3185433791
+
+Frame 52: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth0, id 0
+Ethernet II, Src: a2:19:52:a1:10:1a (a2:19:52:a1:10:1a), Dst: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2)
+Internet Protocol Version 4, Src: 10.10.0.10, Dst: 10.10.0.1
+Transmission Control Protocol, Src Port: 43024, Dst Port: 3128, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     53 0.031101328    10.10.0.10            10.10.0.1             a2:19:52:a1:10:1a HTTP     363    2a:89:5b:62:44:f2 GET http://datos.tpfinal-tyr.com/index.html HTTP/1.0 
+
+Frame 53: 363 bytes on wire (2904 bits), 363 bytes captured (2904 bits) on interface eth0, id 0
+Ethernet II, Src: a2:19:52:a1:10:1a (a2:19:52:a1:10:1a), Dst: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2)
+Internet Protocol Version 4, Src: 10.10.0.10, Dst: 10.10.0.1
+Transmission Control Protocol, Src Port: 43024, Dst Port: 3128, Seq: 1, Ack: 1, Len: 297
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     54 0.031249524    10.10.0.1             10.10.0.10            2a:89:5b:62:44:f2 TCP      66     a2:19:52:a1:10:1a 3128 → 43024 [ACK] Seq=1 Ack=298 Win=64896 Len=0 TSval=3185433791 TSecr=3865731866
+
+Frame 54: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth0, id 0
+Ethernet II, Src: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2), Dst: a2:19:52:a1:10:1a (a2:19:52:a1:10:1a)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 10.10.0.10
+Transmission Control Protocol, Src Port: 3128, Dst Port: 43024, Seq: 1, Ack: 298, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     55 0.031843800    10.10.0.1             8.8.8.8               2a:89:5b:62:44:f2 DNS      81     b6:0c:f9:58:64:27 Standard query 0x44e0 A datos.tpfinal-tyr.com
+
+Frame 55: 81 bytes on wire (648 bits), 81 bytes captured (648 bits) on interface eth0, id 0
+Ethernet II, Src: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2), Dst: b6:0c:f9:58:64:27 (b6:0c:f9:58:64:27)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 41929, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     56 0.032169847    8.8.8.8               10.10.0.1             b6:0c:f9:58:64:27 DNS      97     2a:89:5b:62:44:f2 Standard query response 0x44e0 A datos.tpfinal-tyr.com A 12.12.0.12
+
+Frame 56: 97 bytes on wire (776 bits), 97 bytes captured (776 bits) on interface eth0, id 0
+Ethernet II, Src: b6:0c:f9:58:64:27 (b6:0c:f9:58:64:27), Dst: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 10.10.0.1
+User Datagram Protocol, Src Port: 53, Dst Port: 41929
+Domain Name System (response)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     57 0.033072769    10.10.0.1             12.12.0.12            2a:89:5b:62:44:f2 TCP      74     b6:0c:f9:58:64:27 60712 → 80 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 SACK_PERM TSval=2356592128 TSecr=0 WS=128
+
+Frame 57: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface eth0, id 0
+Ethernet II, Src: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2), Dst: b6:0c:f9:58:64:27 (b6:0c:f9:58:64:27)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 12.12.0.12
+Transmission Control Protocol, Src Port: 60712, Dst Port: 80, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     58 0.033712610    12.12.0.12            10.10.0.1             b6:0c:f9:58:64:27 TCP      74     2a:89:5b:62:44:f2 80 → 60712 [SYN, ACK] Seq=0 Ack=1 Win=65160 Len=0 MSS=1460 SACK_PERM TSval=3927818970 TSecr=2356592128 WS=128
+
+Frame 58: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface eth0, id 0
+Ethernet II, Src: b6:0c:f9:58:64:27 (b6:0c:f9:58:64:27), Dst: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2)
+Internet Protocol Version 4, Src: 12.12.0.12, Dst: 10.10.0.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 60712, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     59 0.033999694    10.10.0.1             12.12.0.12            2a:89:5b:62:44:f2 TCP      66     b6:0c:f9:58:64:27 60712 → 80 [ACK] Seq=1 Ack=1 Win=64256 Len=0 TSval=2356592129 TSecr=3927818970
+
+Frame 59: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth0, id 0
+Ethernet II, Src: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2), Dst: b6:0c:f9:58:64:27 (b6:0c:f9:58:64:27)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 12.12.0.12
+Transmission Control Protocol, Src Port: 60712, Dst Port: 80, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     60 0.036070019    10.10.0.1             12.12.0.12            2a:89:5b:62:44:f2 HTTP     463    b6:0c:f9:58:64:27 GET /index.html HTTP/1.1 
+
+Frame 60: 463 bytes on wire (3704 bits), 463 bytes captured (3704 bits) on interface eth0, id 0
+Ethernet II, Src: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2), Dst: b6:0c:f9:58:64:27 (b6:0c:f9:58:64:27)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 12.12.0.12
+Transmission Control Protocol, Src Port: 60712, Dst Port: 80, Seq: 1, Ack: 1, Len: 397
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     61 0.036162191    12.12.0.12            10.10.0.1             b6:0c:f9:58:64:27 TCP      66     2a:89:5b:62:44:f2 80 → 60712 [ACK] Seq=1 Ack=398 Win=64768 Len=0 TSval=3927818972 TSecr=2356592129
+
+Frame 61: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth0, id 0
+Ethernet II, Src: b6:0c:f9:58:64:27 (b6:0c:f9:58:64:27), Dst: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2)
+Internet Protocol Version 4, Src: 12.12.0.12, Dst: 10.10.0.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 60712, Seq: 1, Ack: 398, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     62 0.036642625    12.12.0.12            10.10.0.1             b6:0c:f9:58:64:27 HTTP     891    2a:89:5b:62:44:f2 HTTP/1.1 200 OK  (text/html)
+
+Frame 62: 891 bytes on wire (7128 bits), 891 bytes captured (7128 bits) on interface eth0, id 0
+Ethernet II, Src: b6:0c:f9:58:64:27 (b6:0c:f9:58:64:27), Dst: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2)
+Internet Protocol Version 4, Src: 12.12.0.12, Dst: 10.10.0.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 60712, Seq: 1, Ack: 398, Len: 825
+Hypertext Transfer Protocol
+Line-based text data: text/html (40 lines)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     63 0.036739125    12.12.0.12            10.10.0.1             b6:0c:f9:58:64:27 TCP      66     2a:89:5b:62:44:f2 80 → 60712 [FIN, ACK] Seq=826 Ack=398 Win=64768 Len=0 TSval=3927818972 TSecr=2356592129
+
+Frame 63: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth0, id 0
+Ethernet II, Src: b6:0c:f9:58:64:27 (b6:0c:f9:58:64:27), Dst: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2)
+Internet Protocol Version 4, Src: 12.12.0.12, Dst: 10.10.0.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 60712, Seq: 826, Ack: 398, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     64 0.037027692    10.10.0.1             12.12.0.12            2a:89:5b:62:44:f2 TCP      66     b6:0c:f9:58:64:27 60712 → 80 [ACK] Seq=398 Ack=826 Win=64128 Len=0 TSval=2356592132 TSecr=3927818972
+
+Frame 64: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth0, id 0
+Ethernet II, Src: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2), Dst: b6:0c:f9:58:64:27 (b6:0c:f9:58:64:27)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 12.12.0.12
+Transmission Control Protocol, Src Port: 60712, Dst Port: 80, Seq: 398, Ack: 826, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     65 0.037611259    10.10.0.1             12.12.0.12            2a:89:5b:62:44:f2 TCP      66     b6:0c:f9:58:64:27 60712 → 80 [FIN, ACK] Seq=398 Ack=826 Win=64128 Len=0 TSval=2356592132 TSecr=3927818972
+
+Frame 65: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth0, id 0
+Ethernet II, Src: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2), Dst: b6:0c:f9:58:64:27 (b6:0c:f9:58:64:27)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 12.12.0.12
+Transmission Control Protocol, Src Port: 60712, Dst Port: 80, Seq: 398, Ack: 826, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     66 0.037713850    12.12.0.12            10.10.0.1             b6:0c:f9:58:64:27 TCP      66     2a:89:5b:62:44:f2 80 → 60712 [ACK] Seq=827 Ack=399 Win=64768 Len=0 TSval=3927818975 TSecr=2356592132
+
+Frame 66: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth0, id 0
+Ethernet II, Src: b6:0c:f9:58:64:27 (b6:0c:f9:58:64:27), Dst: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2)
+Internet Protocol Version 4, Src: 12.12.0.12, Dst: 10.10.0.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 60712, Seq: 827, Ack: 399, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     67 0.045886216    10.10.0.1             10.10.0.10            2a:89:5b:62:44:f2 TCP      506    a2:19:52:a1:10:1a 3128 → 43024 [PSH, ACK] Seq=1 Ack=298 Win=64896 Len=440 TSval=3185433797 TSecr=3865731866 [TCP segment of a reassembled PDU]
+
+Frame 67: 506 bytes on wire (4048 bits), 506 bytes captured (4048 bits) on interface eth0, id 0
+Ethernet II, Src: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2), Dst: a2:19:52:a1:10:1a (a2:19:52:a1:10:1a)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 10.10.0.10
+Transmission Control Protocol, Src Port: 3128, Dst Port: 43024, Seq: 1, Ack: 298, Len: 440
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     68 0.045991913    10.10.0.10            10.10.0.1             a2:19:52:a1:10:1a TCP      66     2a:89:5b:62:44:f2 43024 → 3128 [ACK] Seq=298 Ack=441 Win=64128 Len=0 TSval=3865731873 TSecr=3185433797
+
+Frame 68: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth0, id 0
+Ethernet II, Src: a2:19:52:a1:10:1a (a2:19:52:a1:10:1a), Dst: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2)
+Internet Protocol Version 4, Src: 10.10.0.10, Dst: 10.10.0.1
+Transmission Control Protocol, Src Port: 43024, Dst Port: 3128, Seq: 298, Ack: 441, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     69 0.046104442    10.10.0.1             10.10.0.10            2a:89:5b:62:44:f2 HTTP     591    a2:19:52:a1:10:1a HTTP/1.1 200 OK  (text/html)
+
+Frame 69: 591 bytes on wire (4728 bits), 591 bytes captured (4728 bits) on interface eth0, id 0
+Ethernet II, Src: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2), Dst: a2:19:52:a1:10:1a (a2:19:52:a1:10:1a)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 10.10.0.10
+Transmission Control Protocol, Src Port: 3128, Dst Port: 43024, Seq: 441, Ack: 298, Len: 525
+[2 Reassembled TCP Segments (965 bytes): #67(440), #69(525)]
+Hypertext Transfer Protocol
+Line-based text data: text/html (40 lines)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     70 0.046200892    10.10.0.10            10.10.0.1             a2:19:52:a1:10:1a TCP      66     2a:89:5b:62:44:f2 43024 → 3128 [ACK] Seq=298 Ack=966 Win=64128 Len=0 TSval=3865731882 TSecr=3185433797
+
+Frame 70: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth0, id 0
+Ethernet II, Src: a2:19:52:a1:10:1a (a2:19:52:a1:10:1a), Dst: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2)
+Internet Protocol Version 4, Src: 10.10.0.10, Dst: 10.10.0.1
+Transmission Control Protocol, Src Port: 43024, Dst Port: 3128, Seq: 298, Ack: 966, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     71 0.046294186    10.10.0.1             10.10.0.10            2a:89:5b:62:44:f2 TCP      66     a2:19:52:a1:10:1a 3128 → 43024 [FIN, ACK] Seq=966 Ack=298 Win=64896 Len=0 TSval=3185433797 TSecr=3865731866
+
+Frame 71: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth0, id 0
+Ethernet II, Src: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2), Dst: a2:19:52:a1:10:1a (a2:19:52:a1:10:1a)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 10.10.0.10
+Transmission Control Protocol, Src Port: 3128, Dst Port: 43024, Seq: 966, Ack: 298, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     72 0.046695773    10.10.0.1             12.12.0.12            2a:89:5b:62:44:f2 TCP      66     b6:0c:f9:58:64:27 60712 → 80 [ACK] Seq=399 Ack=827 Win=64128 Len=0 TSval=2356592132 TSecr=3927818972
+
+Frame 72: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth0, id 0
+Ethernet II, Src: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2), Dst: b6:0c:f9:58:64:27 (b6:0c:f9:58:64:27)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 12.12.0.12
+Transmission Control Protocol, Src Port: 60712, Dst Port: 80, Seq: 399, Ack: 827, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     73 0.046788847    10.10.0.1             10.10.0.10            2a:89:5b:62:44:f2 TCP      66     a2:19:52:a1:10:1a [TCP Retransmission] 3128 → 43024 [FIN, ACK] Seq=966 Ack=298 Win=64896 Len=0 TSval=3185433801 TSecr=3865731866
+
+Frame 73: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth0, id 0
+Ethernet II, Src: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2), Dst: a2:19:52:a1:10:1a (a2:19:52:a1:10:1a)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 10.10.0.10
+Transmission Control Protocol, Src Port: 3128, Dst Port: 43024, Seq: 966, Ack: 298, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     74 0.046892690    10.10.0.10            10.10.0.1             a2:19:52:a1:10:1a TCP      78     2a:89:5b:62:44:f2 43024 → 3128 [ACK] Seq=298 Ack=967 Win=64128 Len=0 TSval=3865731882 TSecr=3185433801 SLE=966 SRE=967
+
+Frame 74: 78 bytes on wire (624 bits), 78 bytes captured (624 bits) on interface eth0, id 0
+Ethernet II, Src: a2:19:52:a1:10:1a (a2:19:52:a1:10:1a), Dst: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2)
+Internet Protocol Version 4, Src: 10.10.0.10, Dst: 10.10.0.1
+Transmission Control Protocol, Src Port: 43024, Dst Port: 3128, Seq: 298, Ack: 967, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     75 0.047392591    10.10.0.10            10.10.0.1             a2:19:52:a1:10:1a TCP      66     2a:89:5b:62:44:f2 43024 → 3128 [FIN, ACK] Seq=298 Ack=967 Win=64128 Len=0 TSval=3865731883 TSecr=3185433801
+
+Frame 75: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth0, id 0
+Ethernet II, Src: a2:19:52:a1:10:1a (a2:19:52:a1:10:1a), Dst: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2)
+Internet Protocol Version 4, Src: 10.10.0.10, Dst: 10.10.0.1
+Transmission Control Protocol, Src Port: 43024, Dst Port: 3128, Seq: 298, Ack: 967, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     76 0.047486957    10.10.0.1             10.10.0.10            2a:89:5b:62:44:f2 TCP      66     a2:19:52:a1:10:1a 3128 → 43024 [ACK] Seq=967 Ack=299 Win=64896 Len=0 TSval=3185433808 TSecr=3865731883
+
+Frame 76: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth0, id 0
+Ethernet II, Src: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2), Dst: a2:19:52:a1:10:1a (a2:19:52:a1:10:1a)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 10.10.0.10
+Transmission Control Protocol, Src Port: 3128, Dst Port: 43024, Seq: 967, Ack: 299, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     77 0.059620658    10.10.0.10            8.8.8.8               a2:19:52:a1:10:1a DNS      81     2a:89:5b:62:44:f2 Standard query 0xaf0c A proxy.tpfinal-tyr.com
+
+Frame 77: 81 bytes on wire (648 bits), 81 bytes captured (648 bits) on interface eth0, id 0
+Ethernet II, Src: a2:19:52:a1:10:1a (a2:19:52:a1:10:1a), Dst: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2)
+Internet Protocol Version 4, Src: 10.10.0.10, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 40876, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     78 0.060022527    10.10.0.10            8.8.8.8               2a:89:5b:62:44:f2 DNS      81     b6:0c:f9:58:64:27 Standard query 0xaf0c A proxy.tpfinal-tyr.com
+
+Frame 78: 81 bytes on wire (648 bits), 81 bytes captured (648 bits) on interface eth0, id 0
+Ethernet II, Src: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2), Dst: b6:0c:f9:58:64:27 (b6:0c:f9:58:64:27)
+Internet Protocol Version 4, Src: 10.10.0.10, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 40876, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     79 0.060413735    8.8.8.8               10.10.0.10            b6:0c:f9:58:64:27 DNS      97     a2:19:52:a1:10:1a Standard query response 0xaf0c A proxy.tpfinal-tyr.com A 10.10.0.1
+
+Frame 79: 97 bytes on wire (776 bits), 97 bytes captured (776 bits) on interface eth0, id 0
+Ethernet II, Src: b6:0c:f9:58:64:27 (b6:0c:f9:58:64:27), Dst: a2:19:52:a1:10:1a (a2:19:52:a1:10:1a)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 10.10.0.10
+User Datagram Protocol, Src Port: 53, Dst Port: 40876
+Domain Name System (response)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     80 0.060521356    10.10.0.10            8.8.8.8               a2:19:52:a1:10:1a DNS      81     2a:89:5b:62:44:f2 Standard query 0x2602 AAAA proxy.tpfinal-tyr.com
+
+Frame 80: 81 bytes on wire (648 bits), 81 bytes captured (648 bits) on interface eth0, id 0
+Ethernet II, Src: a2:19:52:a1:10:1a (a2:19:52:a1:10:1a), Dst: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2)
+Internet Protocol Version 4, Src: 10.10.0.10, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 40876, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     81 0.061080206    10.10.0.10            8.8.8.8               2a:89:5b:62:44:f2 DNS      81     b6:0c:f9:58:64:27 Standard query 0x2602 AAAA proxy.tpfinal-tyr.com
+
+Frame 81: 81 bytes on wire (648 bits), 81 bytes captured (648 bits) on interface eth0, id 0
+Ethernet II, Src: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2), Dst: b6:0c:f9:58:64:27 (b6:0c:f9:58:64:27)
+Internet Protocol Version 4, Src: 10.10.0.10, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 40876, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     82 0.061165114    8.8.8.8               10.10.0.10            b6:0c:f9:58:64:27 DNS      126    a2:19:52:a1:10:1a Standard query response 0x2602 AAAA proxy.tpfinal-tyr.com SOA dns.tpfinal-tyr.com
+
+Frame 82: 126 bytes on wire (1008 bits), 126 bytes captured (1008 bits) on interface eth0, id 0
+Ethernet II, Src: b6:0c:f9:58:64:27 (b6:0c:f9:58:64:27), Dst: a2:19:52:a1:10:1a (a2:19:52:a1:10:1a)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 10.10.0.10
+User Datagram Protocol, Src Port: 53, Dst Port: 40876
+Domain Name System (response)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     83 0.061414418    10.10.0.10            10.10.0.1             a2:19:52:a1:10:1a TCP      74     2a:89:5b:62:44:f2 43034 → 3128 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 SACK_PERM TSval=3865731897 TSecr=0 WS=128
+
+Frame 83: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface eth0, id 0
+Ethernet II, Src: a2:19:52:a1:10:1a (a2:19:52:a1:10:1a), Dst: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2)
+Internet Protocol Version 4, Src: 10.10.0.10, Dst: 10.10.0.1
+Transmission Control Protocol, Src Port: 43034, Dst Port: 3128, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     84 0.061515216    10.10.0.1             10.10.0.10            2a:89:5b:62:44:f2 TCP      74     a2:19:52:a1:10:1a 3128 → 43034 [SYN, ACK] Seq=0 Ack=1 Win=65160 Len=0 MSS=1460 SACK_PERM TSval=3185433822 TSecr=3865731897 WS=128
+
+Frame 84: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface eth0, id 0
+Ethernet II, Src: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2), Dst: a2:19:52:a1:10:1a (a2:19:52:a1:10:1a)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 10.10.0.10
+Transmission Control Protocol, Src Port: 3128, Dst Port: 43034, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     85 0.061735967    10.10.0.10            10.10.0.1             a2:19:52:a1:10:1a TCP      66     2a:89:5b:62:44:f2 43034 → 3128 [ACK] Seq=1 Ack=1 Win=64256 Len=0 TSval=3865731897 TSecr=3185433822
+
+Frame 85: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth0, id 0
+Ethernet II, Src: a2:19:52:a1:10:1a (a2:19:52:a1:10:1a), Dst: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2)
+Internet Protocol Version 4, Src: 10.10.0.10, Dst: 10.10.0.1
+Transmission Control Protocol, Src Port: 43034, Dst Port: 3128, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     86 0.062164846    10.10.0.10            10.10.0.1             a2:19:52:a1:10:1a HTTP     369    2a:89:5b:62:44:f2 GET http://datos.tpfinal-tyr.com/cgi-bin/datos.pl HTTP/1.0 
+
+Frame 86: 369 bytes on wire (2952 bits), 369 bytes captured (2952 bits) on interface eth0, id 0
+Ethernet II, Src: a2:19:52:a1:10:1a (a2:19:52:a1:10:1a), Dst: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2)
+Internet Protocol Version 4, Src: 10.10.0.10, Dst: 10.10.0.1
+Transmission Control Protocol, Src Port: 43034, Dst Port: 3128, Seq: 1, Ack: 1, Len: 303
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     87 0.062253851    10.10.0.1             10.10.0.10            2a:89:5b:62:44:f2 TCP      66     a2:19:52:a1:10:1a 3128 → 43034 [ACK] Seq=1 Ack=304 Win=64896 Len=0 TSval=3185433822 TSecr=3865731897
+
+Frame 87: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth0, id 0
+Ethernet II, Src: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2), Dst: a2:19:52:a1:10:1a (a2:19:52:a1:10:1a)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 10.10.0.10
+Transmission Control Protocol, Src Port: 3128, Dst Port: 43034, Seq: 1, Ack: 304, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     88 0.062885738    10.10.0.1             12.12.0.12            2a:89:5b:62:44:f2 TCP      74     b6:0c:f9:58:64:27 60720 → 80 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 SACK_PERM TSval=2356592158 TSecr=0 WS=128
+
+Frame 88: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface eth0, id 0
+Ethernet II, Src: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2), Dst: b6:0c:f9:58:64:27 (b6:0c:f9:58:64:27)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 12.12.0.12
+Transmission Control Protocol, Src Port: 60720, Dst Port: 80, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     89 0.063123901    12.12.0.12            10.10.0.1             b6:0c:f9:58:64:27 TCP      74     2a:89:5b:62:44:f2 80 → 60720 [SYN, ACK] Seq=0 Ack=1 Win=65160 Len=0 MSS=1460 SACK_PERM TSval=3927819000 TSecr=2356592158 WS=128
+
+Frame 89: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface eth0, id 0
+Ethernet II, Src: b6:0c:f9:58:64:27 (b6:0c:f9:58:64:27), Dst: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2)
+Internet Protocol Version 4, Src: 12.12.0.12, Dst: 10.10.0.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 60720, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     90 0.063396369    10.10.0.1             12.12.0.12            2a:89:5b:62:44:f2 TCP      66     b6:0c:f9:58:64:27 60720 → 80 [ACK] Seq=1 Ack=1 Win=64256 Len=0 TSval=2356592158 TSecr=3927819000
+
+Frame 90: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth0, id 0
+Ethernet II, Src: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2), Dst: b6:0c:f9:58:64:27 (b6:0c:f9:58:64:27)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 12.12.0.12
+Transmission Control Protocol, Src Port: 60720, Dst Port: 80, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     91 0.069530820    10.10.0.1             12.12.0.12            2a:89:5b:62:44:f2 HTTP     464    b6:0c:f9:58:64:27 GET /cgi-bin/datos.pl HTTP/1.1 
+
+Frame 91: 464 bytes on wire (3712 bits), 464 bytes captured (3712 bits) on interface eth0, id 0
+Ethernet II, Src: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2), Dst: b6:0c:f9:58:64:27 (b6:0c:f9:58:64:27)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 12.12.0.12
+Transmission Control Protocol, Src Port: 60720, Dst Port: 80, Seq: 1, Ack: 1, Len: 398
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     92 0.069634383    12.12.0.12            10.10.0.1             b6:0c:f9:58:64:27 TCP      66     2a:89:5b:62:44:f2 80 → 60720 [ACK] Seq=1 Ack=399 Win=64768 Len=0 TSval=3927819001 TSecr=2356592159
+
+Frame 92: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth0, id 0
+Ethernet II, Src: b6:0c:f9:58:64:27 (b6:0c:f9:58:64:27), Dst: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2)
+Internet Protocol Version 4, Src: 12.12.0.12, Dst: 10.10.0.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 60720, Seq: 1, Ack: 399, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     93 0.071059036    12.12.0.12            10.10.0.1             b6:0c:f9:58:64:27 HTTP     453    2a:89:5b:62:44:f2 HTTP/1.1 200 OK  (text/html)
+
+Frame 93: 453 bytes on wire (3624 bits), 453 bytes captured (3624 bits) on interface eth0, id 0
+Ethernet II, Src: b6:0c:f9:58:64:27 (b6:0c:f9:58:64:27), Dst: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2)
+Internet Protocol Version 4, Src: 12.12.0.12, Dst: 10.10.0.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 60720, Seq: 1, Ack: 399, Len: 387
+Hypertext Transfer Protocol
+Line-based text data: text/html (8 lines)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     94 0.071336663    10.10.0.1             12.12.0.12            2a:89:5b:62:44:f2 TCP      66     b6:0c:f9:58:64:27 60720 → 80 [ACK] Seq=399 Ack=388 Win=64128 Len=0 TSval=2356592166 TSecr=3927819008
+
+Frame 94: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth0, id 0
+Ethernet II, Src: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2), Dst: b6:0c:f9:58:64:27 (b6:0c:f9:58:64:27)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 12.12.0.12
+Transmission Control Protocol, Src Port: 60720, Dst Port: 80, Seq: 399, Ack: 388, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     95 0.071600955    10.10.0.1             12.12.0.12            2a:89:5b:62:44:f2 TCP      66     b6:0c:f9:58:64:27 60720 → 80 [FIN, ACK] Seq=399 Ack=388 Win=64128 Len=0 TSval=2356592166 TSecr=3927819008
+
+Frame 95: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth0, id 0
+Ethernet II, Src: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2), Dst: b6:0c:f9:58:64:27 (b6:0c:f9:58:64:27)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 12.12.0.12
+Transmission Control Protocol, Src Port: 60720, Dst Port: 80, Seq: 399, Ack: 388, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     96 0.078825747    10.10.0.1             10.10.0.10            2a:89:5b:62:44:f2 TCP      406    a2:19:52:a1:10:1a 3128 → 43034 [PSH, ACK] Seq=1 Ack=304 Win=64896 Len=340 TSval=3185433831 TSecr=3865731897 [TCP segment of a reassembled PDU]
+
+Frame 96: 406 bytes on wire (3248 bits), 406 bytes captured (3248 bits) on interface eth0, id 0
+Ethernet II, Src: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2), Dst: a2:19:52:a1:10:1a (a2:19:52:a1:10:1a)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 10.10.0.10
+Transmission Control Protocol, Src Port: 3128, Dst Port: 43034, Seq: 1, Ack: 304, Len: 340
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     97 0.078960738    10.10.0.10            10.10.0.1             a2:19:52:a1:10:1a TCP      66     2a:89:5b:62:44:f2 43034 → 3128 [ACK] Seq=304 Ack=341 Win=64128 Len=0 TSval=3865731907 TSecr=3185433831
+
+Frame 97: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth0, id 0
+Ethernet II, Src: a2:19:52:a1:10:1a (a2:19:52:a1:10:1a), Dst: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2)
+Internet Protocol Version 4, Src: 10.10.0.10, Dst: 10.10.0.1
+Transmission Control Protocol, Src Port: 43034, Dst Port: 3128, Seq: 304, Ack: 341, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     98 0.079086182    10.10.0.1             10.10.0.10            2a:89:5b:62:44:f2 HTTP     253    a2:19:52:a1:10:1a HTTP/1.1 200 OK  (text/html)
+
+Frame 98: 253 bytes on wire (2024 bits), 253 bytes captured (2024 bits) on interface eth0, id 0
+Ethernet II, Src: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2), Dst: a2:19:52:a1:10:1a (a2:19:52:a1:10:1a)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 10.10.0.10
+Transmission Control Protocol, Src Port: 3128, Dst Port: 43034, Seq: 341, Ack: 304, Len: 187
+[2 Reassembled TCP Segments (527 bytes): #96(340), #98(187)]
+Hypertext Transfer Protocol
+Line-based text data: text/html (8 lines)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+     99 0.079182611    10.10.0.10            10.10.0.1             a2:19:52:a1:10:1a TCP      66     2a:89:5b:62:44:f2 43034 → 3128 [ACK] Seq=304 Ack=528 Win=64128 Len=0 TSval=3865731915 TSecr=3185433831
+
+Frame 99: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth0, id 0
+Ethernet II, Src: a2:19:52:a1:10:1a (a2:19:52:a1:10:1a), Dst: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2)
+Internet Protocol Version 4, Src: 10.10.0.10, Dst: 10.10.0.1
+Transmission Control Protocol, Src Port: 43034, Dst Port: 3128, Seq: 304, Ack: 528, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    100 0.079285833    10.10.0.1             10.10.0.10            2a:89:5b:62:44:f2 TCP      66     a2:19:52:a1:10:1a 3128 → 43034 [FIN, ACK] Seq=528 Ack=304 Win=64896 Len=0 TSval=3185433831 TSecr=3865731897
+
+Frame 100: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth0, id 0
+Ethernet II, Src: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2), Dst: a2:19:52:a1:10:1a (a2:19:52:a1:10:1a)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 10.10.0.10
+Transmission Control Protocol, Src Port: 3128, Dst Port: 43034, Seq: 528, Ack: 304, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    101 0.079387603    10.10.0.1             10.10.0.10            2a:89:5b:62:44:f2 TCP      66     a2:19:52:a1:10:1a [TCP Retransmission] 3128 → 43034 [FIN, ACK] Seq=528 Ack=304 Win=64896 Len=0 TSval=3185433837 TSecr=3865731897
+
+Frame 101: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth0, id 0
+Ethernet II, Src: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2), Dst: a2:19:52:a1:10:1a (a2:19:52:a1:10:1a)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 10.10.0.10
+Transmission Control Protocol, Src Port: 3128, Dst Port: 43034, Seq: 528, Ack: 304, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    102 0.079494131    10.10.0.10            10.10.0.1             a2:19:52:a1:10:1a TCP      78     2a:89:5b:62:44:f2 43034 → 3128 [ACK] Seq=304 Ack=529 Win=64128 Len=0 TSval=3865731915 TSecr=3185433837 SLE=528 SRE=529
+
+Frame 102: 78 bytes on wire (624 bits), 78 bytes captured (624 bits) on interface eth0, id 0
+Ethernet II, Src: a2:19:52:a1:10:1a (a2:19:52:a1:10:1a), Dst: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2)
+Internet Protocol Version 4, Src: 10.10.0.10, Dst: 10.10.0.1
+Transmission Control Protocol, Src Port: 43034, Dst Port: 3128, Seq: 304, Ack: 529, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    103 0.080156174    10.10.0.10            10.10.0.1             a2:19:52:a1:10:1a TCP      66     2a:89:5b:62:44:f2 43034 → 3128 [FIN, ACK] Seq=304 Ack=529 Win=64128 Len=0 TSval=3865731916 TSecr=3185433837
+
+Frame 103: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth0, id 0
+Ethernet II, Src: a2:19:52:a1:10:1a (a2:19:52:a1:10:1a), Dst: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2)
+Internet Protocol Version 4, Src: 10.10.0.10, Dst: 10.10.0.1
+Transmission Control Protocol, Src Port: 43034, Dst Port: 3128, Seq: 304, Ack: 529, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    104 0.080248606    10.10.0.1             10.10.0.10            2a:89:5b:62:44:f2 TCP      66     a2:19:52:a1:10:1a 3128 → 43034 [ACK] Seq=529 Ack=305 Win=64896 Len=0 TSval=3185433841 TSecr=3865731916
+
+Frame 104: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth0, id 0
+Ethernet II, Src: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2), Dst: a2:19:52:a1:10:1a (a2:19:52:a1:10:1a)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 10.10.0.10
+Transmission Control Protocol, Src Port: 3128, Dst Port: 43034, Seq: 529, Ack: 305, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    105 0.090345586    12.12.0.12            10.10.0.1             b6:0c:f9:58:64:27 TCP      66     2a:89:5b:62:44:f2 80 → 60720 [FIN, ACK] Seq=388 Ack=400 Win=64768 Len=0 TSval=3927819027 TSecr=2356592166
+
+Frame 105: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth0, id 0
+Ethernet II, Src: b6:0c:f9:58:64:27 (b6:0c:f9:58:64:27), Dst: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2)
+Internet Protocol Version 4, Src: 12.12.0.12, Dst: 10.10.0.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 60720, Seq: 388, Ack: 400, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    106 0.090626759    10.10.0.1             12.12.0.12            2a:89:5b:62:44:f2 TCP      66     b6:0c:f9:58:64:27 60720 → 80 [ACK] Seq=400 Ack=389 Win=64128 Len=0 TSval=2356592186 TSecr=3927819027
+
+Frame 106: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth0, id 0
+Ethernet II, Src: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2), Dst: b6:0c:f9:58:64:27 (b6:0c:f9:58:64:27)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 12.12.0.12
+Transmission Control Protocol, Src Port: 60720, Dst Port: 80, Seq: 400, Ack: 389, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    107 0.001360884    5a:6a:8b:8c:c7:96     Broadcast             5a:6a:8b:8c:c7:96 ARP      60     ff:ff:ff:ff:ff:ff Who has 8.8.8.8? Tell 8.8.8.1
+
+Frame 107: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth2, id 2
+Ethernet II, Src: 5a:6a:8b:8c:c7:96 (5a:6a:8b:8c:c7:96), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    108 0.001544175    d6:a1:12:c1:81:dd     5a:6a:8b:8c:c7:96     d6:a1:12:c1:81:dd ARP      60     5a:6a:8b:8c:c7:96 8.8.8.8 is at d6:a1:12:c1:81:dd
+
+Frame 108: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth2, id 2
+Ethernet II, Src: d6:a1:12:c1:81:dd (d6:a1:12:c1:81:dd), Dst: 5a:6a:8b:8c:c7:96 (5a:6a:8b:8c:c7:96)
+Address Resolution Protocol (reply)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    109 0.001937057    10.10.0.10            8.8.8.8               5a:6a:8b:8c:c7:96 DNS      81     d6:a1:12:c1:81:dd Standard query 0x76fd A proxy.tpfinal-tyr.com
+
+Frame 109: 81 bytes on wire (648 bits), 81 bytes captured (648 bits) on interface eth2, id 2
+Ethernet II, Src: 5a:6a:8b:8c:c7:96 (5a:6a:8b:8c:c7:96), Dst: d6:a1:12:c1:81:dd (d6:a1:12:c1:81:dd)
+Internet Protocol Version 4, Src: 10.10.0.10, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 54540, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    110 0.002428391    8.8.8.8               10.10.0.10            d6:a1:12:c1:81:dd DNS      97     5a:6a:8b:8c:c7:96 Standard query response 0x76fd A proxy.tpfinal-tyr.com A 10.10.0.1
+
+Frame 110: 97 bytes on wire (776 bits), 97 bytes captured (776 bits) on interface eth2, id 2
+Ethernet II, Src: d6:a1:12:c1:81:dd (d6:a1:12:c1:81:dd), Dst: 5a:6a:8b:8c:c7:96 (5a:6a:8b:8c:c7:96)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 10.10.0.10
+User Datagram Protocol, Src Port: 53, Dst Port: 54540
+Domain Name System (response)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    111 0.003212972    10.10.0.10            8.8.8.8               5a:6a:8b:8c:c7:96 DNS      81     d6:a1:12:c1:81:dd Standard query 0xf7fb AAAA proxy.tpfinal-tyr.com
+
+Frame 111: 81 bytes on wire (648 bits), 81 bytes captured (648 bits) on interface eth2, id 2
+Ethernet II, Src: 5a:6a:8b:8c:c7:96 (5a:6a:8b:8c:c7:96), Dst: d6:a1:12:c1:81:dd (d6:a1:12:c1:81:dd)
+Internet Protocol Version 4, Src: 10.10.0.10, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 54540, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    112 0.003514163    8.8.8.8               10.10.0.10            d6:a1:12:c1:81:dd DNS      126    5a:6a:8b:8c:c7:96 Standard query response 0xf7fb AAAA proxy.tpfinal-tyr.com SOA dns.tpfinal-tyr.com
+
+Frame 112: 126 bytes on wire (1008 bits), 126 bytes captured (1008 bits) on interface eth2, id 2
+Ethernet II, Src: d6:a1:12:c1:81:dd (d6:a1:12:c1:81:dd), Dst: 5a:6a:8b:8c:c7:96 (5a:6a:8b:8c:c7:96)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 10.10.0.10
+User Datagram Protocol, Src Port: 53, Dst Port: 54540
+Domain Name System (response)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    113 0.005857376    10.10.0.1             8.8.8.8               5a:6a:8b:8c:c7:96 DNS      83     d6:a1:12:c1:81:dd Standard query 0xe717 PTR 10.0.10.10.in-addr.arpa
+
+Frame 113: 83 bytes on wire (664 bits), 83 bytes captured (664 bits) on interface eth2, id 2
+Ethernet II, Src: 5a:6a:8b:8c:c7:96 (5a:6a:8b:8c:c7:96), Dst: d6:a1:12:c1:81:dd (d6:a1:12:c1:81:dd)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 41929, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    114 0.005984673    10.10.0.1             8.8.8.8               5a:6a:8b:8c:c7:96 DNS      79     d6:a1:12:c1:81:dd Standard query 0xa7e2 A www.tpfinal-tyr.com
+
+Frame 114: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface eth2, id 2
+Ethernet II, Src: 5a:6a:8b:8c:c7:96 (5a:6a:8b:8c:c7:96), Dst: d6:a1:12:c1:81:dd (d6:a1:12:c1:81:dd)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 41929, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    115 0.006281365    8.8.8.8               10.10.0.1             d6:a1:12:c1:81:dd DNS      133    5a:6a:8b:8c:c7:96 Standard query response 0xe717 No such name PTR 10.0.10.10.in-addr.arpa SOA 10.IN-ADDR.ARPA
+
+Frame 115: 133 bytes on wire (1064 bits), 133 bytes captured (1064 bits) on interface eth2, id 2
+Ethernet II, Src: d6:a1:12:c1:81:dd (d6:a1:12:c1:81:dd), Dst: 5a:6a:8b:8c:c7:96 (5a:6a:8b:8c:c7:96)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 10.10.0.1
+User Datagram Protocol, Src Port: 53, Dst Port: 41929
+Domain Name System (response)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    116 0.020510449    8.8.8.8               10.10.0.1             d6:a1:12:c1:81:dd DNS      95     5a:6a:8b:8c:c7:96 Standard query response 0xa7e2 A www.tpfinal-tyr.com A 12.12.0.11
+
+Frame 116: 95 bytes on wire (760 bits), 95 bytes captured (760 bits) on interface eth2, id 2
+Ethernet II, Src: d6:a1:12:c1:81:dd (d6:a1:12:c1:81:dd), Dst: 5a:6a:8b:8c:c7:96 (5a:6a:8b:8c:c7:96)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 10.10.0.1
+User Datagram Protocol, Src Port: 53, Dst Port: 41929
+Domain Name System (response)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    117 0.028900490    10.10.0.10            8.8.8.8               5a:6a:8b:8c:c7:96 DNS      81     d6:a1:12:c1:81:dd Standard query 0xbc75 A proxy.tpfinal-tyr.com
+
+Frame 117: 81 bytes on wire (648 bits), 81 bytes captured (648 bits) on interface eth2, id 2
+Ethernet II, Src: 5a:6a:8b:8c:c7:96 (5a:6a:8b:8c:c7:96), Dst: d6:a1:12:c1:81:dd (d6:a1:12:c1:81:dd)
+Internet Protocol Version 4, Src: 10.10.0.10, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 34664, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    118 0.029270469    8.8.8.8               10.10.0.10            d6:a1:12:c1:81:dd DNS      97     5a:6a:8b:8c:c7:96 Standard query response 0xbc75 A proxy.tpfinal-tyr.com A 10.10.0.1
+
+Frame 118: 97 bytes on wire (776 bits), 97 bytes captured (776 bits) on interface eth2, id 2
+Ethernet II, Src: d6:a1:12:c1:81:dd (d6:a1:12:c1:81:dd), Dst: 5a:6a:8b:8c:c7:96 (5a:6a:8b:8c:c7:96)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 10.10.0.10
+User Datagram Protocol, Src Port: 53, Dst Port: 34664
+Domain Name System (response)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    119 0.029713093    10.10.0.10            8.8.8.8               5a:6a:8b:8c:c7:96 DNS      81     d6:a1:12:c1:81:dd Standard query 0x5476 AAAA proxy.tpfinal-tyr.com
+
+Frame 119: 81 bytes on wire (648 bits), 81 bytes captured (648 bits) on interface eth2, id 2
+Ethernet II, Src: 5a:6a:8b:8c:c7:96 (5a:6a:8b:8c:c7:96), Dst: d6:a1:12:c1:81:dd (d6:a1:12:c1:81:dd)
+Internet Protocol Version 4, Src: 10.10.0.10, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 34664, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    120 0.029950595    8.8.8.8               10.10.0.10            d6:a1:12:c1:81:dd DNS      126    5a:6a:8b:8c:c7:96 Standard query response 0x5476 AAAA proxy.tpfinal-tyr.com SOA dns.tpfinal-tyr.com
+
+Frame 120: 126 bytes on wire (1008 bits), 126 bytes captured (1008 bits) on interface eth2, id 2
+Ethernet II, Src: d6:a1:12:c1:81:dd (d6:a1:12:c1:81:dd), Dst: 5a:6a:8b:8c:c7:96 (5a:6a:8b:8c:c7:96)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 10.10.0.10
+User Datagram Protocol, Src Port: 53, Dst Port: 34664
+Domain Name System (response)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    121 0.031506683    10.10.0.1             8.8.8.8               5a:6a:8b:8c:c7:96 DNS      81     d6:a1:12:c1:81:dd Standard query 0x44e0 A datos.tpfinal-tyr.com
+
+Frame 121: 81 bytes on wire (648 bits), 81 bytes captured (648 bits) on interface eth2, id 2
+Ethernet II, Src: 5a:6a:8b:8c:c7:96 (5a:6a:8b:8c:c7:96), Dst: d6:a1:12:c1:81:dd (d6:a1:12:c1:81:dd)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 41929, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    122 0.031690124    8.8.8.8               10.10.0.1             d6:a1:12:c1:81:dd DNS      97     5a:6a:8b:8c:c7:96 Standard query response 0x44e0 A datos.tpfinal-tyr.com A 12.12.0.12
+
+Frame 122: 97 bytes on wire (776 bits), 97 bytes captured (776 bits) on interface eth2, id 2
+Ethernet II, Src: d6:a1:12:c1:81:dd (d6:a1:12:c1:81:dd), Dst: 5a:6a:8b:8c:c7:96 (5a:6a:8b:8c:c7:96)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 10.10.0.1
+User Datagram Protocol, Src Port: 53, Dst Port: 41929
+Domain Name System (response)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    123 0.059913083    10.10.0.10            8.8.8.8               5a:6a:8b:8c:c7:96 DNS      81     d6:a1:12:c1:81:dd Standard query 0xaf0c A proxy.tpfinal-tyr.com
+
+Frame 123: 81 bytes on wire (648 bits), 81 bytes captured (648 bits) on interface eth2, id 2
+Ethernet II, Src: 5a:6a:8b:8c:c7:96 (5a:6a:8b:8c:c7:96), Dst: d6:a1:12:c1:81:dd (d6:a1:12:c1:81:dd)
+Internet Protocol Version 4, Src: 10.10.0.10, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 40876, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    124 0.060265319    8.8.8.8               10.10.0.10            d6:a1:12:c1:81:dd DNS      97     5a:6a:8b:8c:c7:96 Standard query response 0xaf0c A proxy.tpfinal-tyr.com A 10.10.0.1
+
+Frame 124: 97 bytes on wire (776 bits), 97 bytes captured (776 bits) on interface eth2, id 2
+Ethernet II, Src: d6:a1:12:c1:81:dd (d6:a1:12:c1:81:dd), Dst: 5a:6a:8b:8c:c7:96 (5a:6a:8b:8c:c7:96)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 10.10.0.10
+User Datagram Protocol, Src Port: 53, Dst Port: 40876
+Domain Name System (response)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    125 0.060765210    10.10.0.10            8.8.8.8               5a:6a:8b:8c:c7:96 DNS      81     d6:a1:12:c1:81:dd Standard query 0x2602 AAAA proxy.tpfinal-tyr.com
+
+Frame 125: 81 bytes on wire (648 bits), 81 bytes captured (648 bits) on interface eth2, id 2
+Ethernet II, Src: 5a:6a:8b:8c:c7:96 (5a:6a:8b:8c:c7:96), Dst: d6:a1:12:c1:81:dd (d6:a1:12:c1:81:dd)
+Internet Protocol Version 4, Src: 10.10.0.10, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 40876, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    126 0.060856229    8.8.8.8               10.10.0.10            d6:a1:12:c1:81:dd DNS      126    5a:6a:8b:8c:c7:96 Standard query response 0x2602 AAAA proxy.tpfinal-tyr.com SOA dns.tpfinal-tyr.com
+
+Frame 126: 126 bytes on wire (1008 bits), 126 bytes captured (1008 bits) on interface eth2, id 2
+Ethernet II, Src: d6:a1:12:c1:81:dd (d6:a1:12:c1:81:dd), Dst: 5a:6a:8b:8c:c7:96 (5a:6a:8b:8c:c7:96)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 10.10.0.10
+User Datagram Protocol, Src Port: 53, Dst Port: 40876
+Domain Name System (response)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    127 0.007269505    4e:83:fc:5d:2f:1f     Broadcast             4e:83:fc:5d:2f:1f ARP      60     ff:ff:ff:ff:ff:ff Who has 12.12.0.11? Tell 12.12.0.1
+
+Frame 127: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth3, id 3
+Ethernet II, Src: 4e:83:fc:5d:2f:1f (4e:83:fc:5d:2f:1f), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    128 0.007467043    6a:94:a9:bd:77:91     4e:83:fc:5d:2f:1f     6a:94:a9:bd:77:91 ARP      60     4e:83:fc:5d:2f:1f 12.12.0.11 is at 6a:94:a9:bd:77:91
+
+Frame 128: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth3, id 3
+Ethernet II, Src: 6a:94:a9:bd:77:91 (6a:94:a9:bd:77:91), Dst: 4e:83:fc:5d:2f:1f (4e:83:fc:5d:2f:1f)
+Address Resolution Protocol (reply)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    129 0.007601924    10.10.0.1             12.12.0.11            4e:83:fc:5d:2f:1f TCP      74     6a:94:a9:bd:77:91 [TCP Retransmission] 47548 → 80 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 SACK_PERM TSval=1575292112 TSecr=0 WS=128
+
+Frame 129: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface eth3, id 3
+Ethernet II, Src: 4e:83:fc:5d:2f:1f (4e:83:fc:5d:2f:1f), Dst: 6a:94:a9:bd:77:91 (6a:94:a9:bd:77:91)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 12.12.0.11
+Transmission Control Protocol, Src Port: 47548, Dst Port: 80, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    130 0.007734150    12.12.0.11            10.10.0.1             6a:94:a9:bd:77:91 TCP      74     4e:83:fc:5d:2f:1f [TCP Retransmission] 80 → 47548 [SYN, ACK] Seq=0 Ack=1 Win=65160 Len=0 MSS=1460 SACK_PERM TSval=1709114237 TSecr=1575292112 WS=128
+
+Frame 130: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface eth3, id 3
+Ethernet II, Src: 6a:94:a9:bd:77:91 (6a:94:a9:bd:77:91), Dst: 4e:83:fc:5d:2f:1f (4e:83:fc:5d:2f:1f)
+Internet Protocol Version 4, Src: 12.12.0.11, Dst: 10.10.0.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 47548, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    131 0.008618477    10.10.0.1             12.12.0.11            4e:83:fc:5d:2f:1f TCP      66     6a:94:a9:bd:77:91 47548 → 80 [ACK] Seq=1 Ack=1 Win=64256 Len=0 TSval=1575292113 TSecr=1709114237
+
+Frame 131: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth3, id 3
+Ethernet II, Src: 4e:83:fc:5d:2f:1f (4e:83:fc:5d:2f:1f), Dst: 6a:94:a9:bd:77:91 (6a:94:a9:bd:77:91)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 12.12.0.11
+Transmission Control Protocol, Src Port: 47548, Dst Port: 80, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    132 0.009084224    10.10.0.1             12.12.0.11            4e:83:fc:5d:2f:1f ICMP     78     6a:94:a9:bd:77:91 Echo (ping) request  id=0x4c00, seq=256/1, ttl=62 (reply in 133)
+
+Frame 132: 78 bytes on wire (624 bits), 78 bytes captured (624 bits) on interface eth3, id 3
+Ethernet II, Src: 4e:83:fc:5d:2f:1f (4e:83:fc:5d:2f:1f), Dst: 6a:94:a9:bd:77:91 (6a:94:a9:bd:77:91)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 12.12.0.11
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    133 0.009176526    12.12.0.11            10.10.0.1             6a:94:a9:bd:77:91 ICMP     78     4e:83:fc:5d:2f:1f Echo (ping) reply    id=0x4c00, seq=256/1, ttl=64 (request in 132)
+
+Frame 133: 78 bytes on wire (624 bits), 78 bytes captured (624 bits) on interface eth3, id 3
+Ethernet II, Src: 6a:94:a9:bd:77:91 (6a:94:a9:bd:77:91), Dst: 4e:83:fc:5d:2f:1f (4e:83:fc:5d:2f:1f)
+Internet Protocol Version 4, Src: 12.12.0.11, Dst: 10.10.0.1
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    134 0.010627037    10.10.0.1             12.12.0.11            4e:83:fc:5d:2f:1f TCP      413    6a:94:a9:bd:77:91 [TCP Retransmission] 47548 → 80 [PSH, ACK] Seq=1 Ack=1 Win=64256 Len=347 TSval=1575292114 TSecr=1709114237
+
+Frame 134: 413 bytes on wire (3304 bits), 413 bytes captured (3304 bits) on interface eth3, id 3
+Ethernet II, Src: 4e:83:fc:5d:2f:1f (4e:83:fc:5d:2f:1f), Dst: 6a:94:a9:bd:77:91 (6a:94:a9:bd:77:91)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 12.12.0.11
+Transmission Control Protocol, Src Port: 47548, Dst Port: 80, Seq: 1, Ack: 1, Len: 347
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    135 0.010769863    12.12.0.11            10.10.0.1             6a:94:a9:bd:77:91 TCP      66     4e:83:fc:5d:2f:1f 80 → 47548 [ACK] Seq=1 Ack=348 Win=64896 Len=0 TSval=1709114239 TSecr=1575292114
+
+Frame 135: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth3, id 3
+Ethernet II, Src: 6a:94:a9:bd:77:91 (6a:94:a9:bd:77:91), Dst: 4e:83:fc:5d:2f:1f (4e:83:fc:5d:2f:1f)
+Internet Protocol Version 4, Src: 12.12.0.11, Dst: 10.10.0.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 47548, Seq: 1, Ack: 348, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    136 0.010861824    12.12.0.11            10.10.0.1             6a:94:a9:bd:77:91 TCP      559    4e:83:fc:5d:2f:1f [TCP Retransmission] 80 → 47548 [PSH, ACK] Seq=1 Ack=348 Win=64896 Len=493 TSval=1709114240 TSecr=1575292114
+
+Frame 136: 559 bytes on wire (4472 bits), 559 bytes captured (4472 bits) on interface eth3, id 3
+Ethernet II, Src: 6a:94:a9:bd:77:91 (6a:94:a9:bd:77:91), Dst: 4e:83:fc:5d:2f:1f (4e:83:fc:5d:2f:1f)
+Internet Protocol Version 4, Src: 12.12.0.11, Dst: 10.10.0.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 47548, Seq: 1, Ack: 348, Len: 493
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    137 0.011159638    12.12.0.11            10.10.0.1             6a:94:a9:bd:77:91 TCP      66     4e:83:fc:5d:2f:1f [TCP Retransmission] 80 → 47548 [FIN, ACK] Seq=494 Ack=348 Win=64896 Len=0 TSval=1709114240 TSecr=1575292114
+
+Frame 137: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth3, id 3
+Ethernet II, Src: 6a:94:a9:bd:77:91 (6a:94:a9:bd:77:91), Dst: 4e:83:fc:5d:2f:1f (4e:83:fc:5d:2f:1f)
+Internet Protocol Version 4, Src: 12.12.0.11, Dst: 10.10.0.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 47548, Seq: 494, Ack: 348, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    138 0.012281958    10.10.0.1             12.12.0.11            4e:83:fc:5d:2f:1f TCP      66     6a:94:a9:bd:77:91 [TCP Keep-Alive] 47548 → 80 [ACK] Seq=348 Ack=494 Win=64128 Len=0 TSval=1575292117 TSecr=1709114240
+
+Frame 138: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth3, id 3
+Ethernet II, Src: 4e:83:fc:5d:2f:1f (4e:83:fc:5d:2f:1f), Dst: 6a:94:a9:bd:77:91 (6a:94:a9:bd:77:91)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 12.12.0.11
+Transmission Control Protocol, Src Port: 47548, Dst Port: 80, Seq: 348, Ack: 494, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    139 0.019968389    10.10.0.1             12.12.0.11            4e:83:fc:5d:2f:1f TCP      66     6a:94:a9:bd:77:91 [TCP Retransmission] 47548 → 80 [FIN, ACK] Seq=348 Ack=494 Win=64128 Len=0 TSval=1575292117 TSecr=1709114240
+
+Frame 139: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth3, id 3
+Ethernet II, Src: 4e:83:fc:5d:2f:1f (4e:83:fc:5d:2f:1f), Dst: 6a:94:a9:bd:77:91 (6a:94:a9:bd:77:91)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 12.12.0.11
+Transmission Control Protocol, Src Port: 47548, Dst Port: 80, Seq: 348, Ack: 494, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    140 0.020065530    12.12.0.11            10.10.0.1             6a:94:a9:bd:77:91 TCP      66     4e:83:fc:5d:2f:1f 80 → 47548 [ACK] Seq=495 Ack=349 Win=64896 Len=0 TSval=1709114249 TSecr=1575292117
+
+Frame 140: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth3, id 3
+Ethernet II, Src: 6a:94:a9:bd:77:91 (6a:94:a9:bd:77:91), Dst: 4e:83:fc:5d:2f:1f (4e:83:fc:5d:2f:1f)
+Internet Protocol Version 4, Src: 12.12.0.11, Dst: 10.10.0.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 47548, Seq: 495, Ack: 349, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    141 0.021187058    10.10.0.1             12.12.0.11            4e:83:fc:5d:2f:1f TCP      66     6a:94:a9:bd:77:91 47548 → 80 [ACK] Seq=349 Ack=495 Win=64128 Len=0 TSval=1575292118 TSecr=1709114240
+
+Frame 141: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth3, id 3
+Ethernet II, Src: 4e:83:fc:5d:2f:1f (4e:83:fc:5d:2f:1f), Dst: 6a:94:a9:bd:77:91 (6a:94:a9:bd:77:91)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 12.12.0.11
+Transmission Control Protocol, Src Port: 47548, Dst Port: 80, Seq: 349, Ack: 495, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    142 0.032498099    4e:83:fc:5d:2f:1f     Broadcast             4e:83:fc:5d:2f:1f ARP      60     ff:ff:ff:ff:ff:ff Who has 12.12.0.12? Tell 12.12.0.1
+
+Frame 142: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth3, id 3
+Ethernet II, Src: 4e:83:fc:5d:2f:1f (4e:83:fc:5d:2f:1f), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    143 0.032591643    9e:76:f9:99:36:a3     4e:83:fc:5d:2f:1f     9e:76:f9:99:36:a3 ARP      60     4e:83:fc:5d:2f:1f 12.12.0.12 is at 9e:76:f9:99:36:a3
+
+Frame 143: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth3, id 3
+Ethernet II, Src: 9e:76:f9:99:36:a3 (9e:76:f9:99:36:a3), Dst: 4e:83:fc:5d:2f:1f (4e:83:fc:5d:2f:1f)
+Address Resolution Protocol (reply)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    144 0.032765306    10.10.0.1             12.12.0.12            4e:83:fc:5d:2f:1f TCP      74     9e:76:f9:99:36:a3 [TCP Retransmission] 60712 → 80 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 SACK_PERM TSval=2356592128 TSecr=0 WS=128
+
+Frame 144: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface eth3, id 3
+Ethernet II, Src: 4e:83:fc:5d:2f:1f (4e:83:fc:5d:2f:1f), Dst: 9e:76:f9:99:36:a3 (9e:76:f9:99:36:a3)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 12.12.0.12
+Transmission Control Protocol, Src Port: 60712, Dst Port: 80, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    145 0.032860323    12.12.0.12            10.10.0.1             9e:76:f9:99:36:a3 TCP      74     4e:83:fc:5d:2f:1f [TCP Retransmission] 80 → 60712 [SYN, ACK] Seq=0 Ack=1 Win=65160 Len=0 MSS=1460 SACK_PERM TSval=3927818970 TSecr=2356592128 WS=128
+
+Frame 145: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface eth3, id 3
+Ethernet II, Src: 9e:76:f9:99:36:a3 (9e:76:f9:99:36:a3), Dst: 4e:83:fc:5d:2f:1f (4e:83:fc:5d:2f:1f)
+Internet Protocol Version 4, Src: 12.12.0.12, Dst: 10.10.0.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 60712, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    146 0.033880182    10.10.0.1             12.12.0.12            4e:83:fc:5d:2f:1f TCP      66     9e:76:f9:99:36:a3 60712 → 80 [ACK] Seq=1 Ack=1 Win=64256 Len=0 TSval=2356592129 TSecr=3927818970
+
+Frame 146: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth3, id 3
+Ethernet II, Src: 4e:83:fc:5d:2f:1f (4e:83:fc:5d:2f:1f), Dst: 9e:76:f9:99:36:a3 (9e:76:f9:99:36:a3)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 12.12.0.12
+Transmission Control Protocol, Src Port: 60712, Dst Port: 80, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    147 0.034973037    10.10.0.1             12.12.0.12            4e:83:fc:5d:2f:1f TCP      463    9e:76:f9:99:36:a3 [TCP Retransmission] 60712 → 80 [PSH, ACK] Seq=1 Ack=1 Win=64256 Len=397 TSval=2356592129 TSecr=3927818970
+
+Frame 147: 463 bytes on wire (3704 bits), 463 bytes captured (3704 bits) on interface eth3, id 3
+Ethernet II, Src: 4e:83:fc:5d:2f:1f (4e:83:fc:5d:2f:1f), Dst: 9e:76:f9:99:36:a3 (9e:76:f9:99:36:a3)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 12.12.0.12
+Transmission Control Protocol, Src Port: 60712, Dst Port: 80, Seq: 1, Ack: 1, Len: 397
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    148 0.035410551    12.12.0.12            10.10.0.1             9e:76:f9:99:36:a3 TCP      66     4e:83:fc:5d:2f:1f 80 → 60712 [ACK] Seq=1 Ack=398 Win=64768 Len=0 TSval=3927818972 TSecr=2356592129
+
+Frame 148: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth3, id 3
+Ethernet II, Src: 9e:76:f9:99:36:a3 (9e:76:f9:99:36:a3), Dst: 4e:83:fc:5d:2f:1f (4e:83:fc:5d:2f:1f)
+Internet Protocol Version 4, Src: 12.12.0.12, Dst: 10.10.0.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 60712, Seq: 1, Ack: 398, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    149 0.035509085    12.12.0.12            10.10.0.1             9e:76:f9:99:36:a3 TCP      891    4e:83:fc:5d:2f:1f [TCP Retransmission] 80 → 60712 [PSH, ACK] Seq=1 Ack=398 Win=64768 Len=825 TSval=3927818972 TSecr=2356592129
+
+Frame 149: 891 bytes on wire (7128 bits), 891 bytes captured (7128 bits) on interface eth3, id 3
+Ethernet II, Src: 9e:76:f9:99:36:a3 (9e:76:f9:99:36:a3), Dst: 4e:83:fc:5d:2f:1f (4e:83:fc:5d:2f:1f)
+Internet Protocol Version 4, Src: 12.12.0.12, Dst: 10.10.0.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 60712, Seq: 1, Ack: 398, Len: 825
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    150 0.035611105    12.12.0.12            10.10.0.1             9e:76:f9:99:36:a3 TCP      66     4e:83:fc:5d:2f:1f [TCP Retransmission] 80 → 60712 [FIN, ACK] Seq=826 Ack=398 Win=64768 Len=0 TSval=3927818972 TSecr=2356592129
+
+Frame 150: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth3, id 3
+Ethernet II, Src: 9e:76:f9:99:36:a3 (9e:76:f9:99:36:a3), Dst: 4e:83:fc:5d:2f:1f (4e:83:fc:5d:2f:1f)
+Internet Protocol Version 4, Src: 12.12.0.12, Dst: 10.10.0.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 60712, Seq: 826, Ack: 398, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    151 0.036906386    10.10.0.1             12.12.0.12            4e:83:fc:5d:2f:1f TCP      66     9e:76:f9:99:36:a3 [TCP Keep-Alive] 60712 → 80 [ACK] Seq=398 Ack=826 Win=64128 Len=0 TSval=2356592132 TSecr=3927818972
+
+Frame 151: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth3, id 3
+Ethernet II, Src: 4e:83:fc:5d:2f:1f (4e:83:fc:5d:2f:1f), Dst: 9e:76:f9:99:36:a3 (9e:76:f9:99:36:a3)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 12.12.0.12
+Transmission Control Protocol, Src Port: 60712, Dst Port: 80, Seq: 398, Ack: 826, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    152 0.037263231    10.10.0.1             12.12.0.12            4e:83:fc:5d:2f:1f TCP      66     9e:76:f9:99:36:a3 [TCP Retransmission] 60712 → 80 [FIN, ACK] Seq=398 Ack=826 Win=64128 Len=0 TSval=2356592132 TSecr=3927818972
+
+Frame 152: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth3, id 3
+Ethernet II, Src: 4e:83:fc:5d:2f:1f (4e:83:fc:5d:2f:1f), Dst: 9e:76:f9:99:36:a3 (9e:76:f9:99:36:a3)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 12.12.0.12
+Transmission Control Protocol, Src Port: 60712, Dst Port: 80, Seq: 398, Ack: 826, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    153 0.037357617    12.12.0.12            10.10.0.1             9e:76:f9:99:36:a3 TCP      66     4e:83:fc:5d:2f:1f 80 → 60712 [ACK] Seq=827 Ack=399 Win=64768 Len=0 TSval=3927818975 TSecr=2356592132
+
+Frame 153: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth3, id 3
+Ethernet II, Src: 9e:76:f9:99:36:a3 (9e:76:f9:99:36:a3), Dst: 4e:83:fc:5d:2f:1f (4e:83:fc:5d:2f:1f)
+Internet Protocol Version 4, Src: 12.12.0.12, Dst: 10.10.0.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 60712, Seq: 827, Ack: 399, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    154 0.046569027    10.10.0.1             12.12.0.12            4e:83:fc:5d:2f:1f TCP      66     9e:76:f9:99:36:a3 60712 → 80 [ACK] Seq=399 Ack=827 Win=64128 Len=0 TSval=2356592132 TSecr=3927818972
+
+Frame 154: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth3, id 3
+Ethernet II, Src: 4e:83:fc:5d:2f:1f (4e:83:fc:5d:2f:1f), Dst: 9e:76:f9:99:36:a3 (9e:76:f9:99:36:a3)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 12.12.0.12
+Transmission Control Protocol, Src Port: 60712, Dst Port: 80, Seq: 399, Ack: 827, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    155 0.062679354    10.10.0.1             12.12.0.12            4e:83:fc:5d:2f:1f TCP      74     9e:76:f9:99:36:a3 [TCP Retransmission] 60720 → 80 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 SACK_PERM TSval=2356592158 TSecr=0 WS=128
+
+Frame 155: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface eth3, id 3
+Ethernet II, Src: 4e:83:fc:5d:2f:1f (4e:83:fc:5d:2f:1f), Dst: 9e:76:f9:99:36:a3 (9e:76:f9:99:36:a3)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 12.12.0.12
+Transmission Control Protocol, Src Port: 60720, Dst Port: 80, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    156 0.062764091    12.12.0.12            10.10.0.1             9e:76:f9:99:36:a3 TCP      74     4e:83:fc:5d:2f:1f [TCP Retransmission] 80 → 60720 [SYN, ACK] Seq=0 Ack=1 Win=65160 Len=0 MSS=1460 SACK_PERM TSval=3927819000 TSecr=2356592158 WS=128
+
+Frame 156: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface eth3, id 3
+Ethernet II, Src: 9e:76:f9:99:36:a3 (9e:76:f9:99:36:a3), Dst: 4e:83:fc:5d:2f:1f (4e:83:fc:5d:2f:1f)
+Internet Protocol Version 4, Src: 12.12.0.12, Dst: 10.10.0.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 60720, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    157 0.063383885    10.10.0.1             12.12.0.12            4e:83:fc:5d:2f:1f TCP      66     9e:76:f9:99:36:a3 60720 → 80 [ACK] Seq=1 Ack=1 Win=64256 Len=0 TSval=2356592158 TSecr=3927819000
+
+Frame 157: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth3, id 3
+Ethernet II, Src: 4e:83:fc:5d:2f:1f (4e:83:fc:5d:2f:1f), Dst: 9e:76:f9:99:36:a3 (9e:76:f9:99:36:a3)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 12.12.0.12
+Transmission Control Protocol, Src Port: 60720, Dst Port: 80, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    158 0.069251590    10.10.0.1             12.12.0.12            4e:83:fc:5d:2f:1f TCP      464    9e:76:f9:99:36:a3 [TCP Retransmission] 60720 → 80 [PSH, ACK] Seq=1 Ack=1 Win=64256 Len=398 TSval=2356592159 TSecr=3927819000
+
+Frame 158: 464 bytes on wire (3712 bits), 464 bytes captured (3712 bits) on interface eth3, id 3
+Ethernet II, Src: 4e:83:fc:5d:2f:1f (4e:83:fc:5d:2f:1f), Dst: 9e:76:f9:99:36:a3 (9e:76:f9:99:36:a3)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 12.12.0.12
+Transmission Control Protocol, Src Port: 60720, Dst Port: 80, Seq: 1, Ack: 1, Len: 398
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    159 0.069395098    12.12.0.12            10.10.0.1             9e:76:f9:99:36:a3 TCP      66     4e:83:fc:5d:2f:1f 80 → 60720 [ACK] Seq=1 Ack=399 Win=64768 Len=0 TSval=3927819001 TSecr=2356592159
+
+Frame 159: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth3, id 3
+Ethernet II, Src: 9e:76:f9:99:36:a3 (9e:76:f9:99:36:a3), Dst: 4e:83:fc:5d:2f:1f (4e:83:fc:5d:2f:1f)
+Internet Protocol Version 4, Src: 12.12.0.12, Dst: 10.10.0.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 60720, Seq: 1, Ack: 399, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    160 0.070493763    12.12.0.12            10.10.0.1             9e:76:f9:99:36:a3 TCP      453    4e:83:fc:5d:2f:1f [TCP Retransmission] 80 → 60720 [PSH, ACK] Seq=1 Ack=399 Win=64768 Len=387 TSval=3927819008 TSecr=2356592159
+
+Frame 160: 453 bytes on wire (3624 bits), 453 bytes captured (3624 bits) on interface eth3, id 3
+Ethernet II, Src: 9e:76:f9:99:36:a3 (9e:76:f9:99:36:a3), Dst: 4e:83:fc:5d:2f:1f (4e:83:fc:5d:2f:1f)
+Internet Protocol Version 4, Src: 12.12.0.12, Dst: 10.10.0.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 60720, Seq: 1, Ack: 399, Len: 387
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    161 0.071324149    10.10.0.1             12.12.0.12            4e:83:fc:5d:2f:1f TCP      66     9e:76:f9:99:36:a3 [TCP Keep-Alive] 60720 → 80 [ACK] Seq=399 Ack=388 Win=64128 Len=0 TSval=2356592166 TSecr=3927819008
+
+Frame 161: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth3, id 3
+Ethernet II, Src: 4e:83:fc:5d:2f:1f (4e:83:fc:5d:2f:1f), Dst: 9e:76:f9:99:36:a3 (9e:76:f9:99:36:a3)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 12.12.0.12
+Transmission Control Protocol, Src Port: 60720, Dst Port: 80, Seq: 399, Ack: 388, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    162 0.071588602    10.10.0.1             12.12.0.12            4e:83:fc:5d:2f:1f TCP      66     9e:76:f9:99:36:a3 [TCP Retransmission] 60720 → 80 [FIN, ACK] Seq=399 Ack=388 Win=64128 Len=0 TSval=2356592166 TSecr=3927819008
+
+Frame 162: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth3, id 3
+Ethernet II, Src: 4e:83:fc:5d:2f:1f (4e:83:fc:5d:2f:1f), Dst: 9e:76:f9:99:36:a3 (9e:76:f9:99:36:a3)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 12.12.0.12
+Transmission Control Protocol, Src Port: 60720, Dst Port: 80, Seq: 399, Ack: 388, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    163 0.090108544    12.12.0.12            10.10.0.1             9e:76:f9:99:36:a3 TCP      66     4e:83:fc:5d:2f:1f [TCP Retransmission] 80 → 60720 [FIN, ACK] Seq=388 Ack=400 Win=64768 Len=0 TSval=3927819027 TSecr=2356592166
+
+Frame 163: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth3, id 3
+Ethernet II, Src: 9e:76:f9:99:36:a3 (9e:76:f9:99:36:a3), Dst: 4e:83:fc:5d:2f:1f (4e:83:fc:5d:2f:1f)
+Internet Protocol Version 4, Src: 12.12.0.12, Dst: 10.10.0.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 60720, Seq: 388, Ack: 400, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    164 0.090614116    10.10.0.1             12.12.0.12            4e:83:fc:5d:2f:1f TCP      66     9e:76:f9:99:36:a3 60720 → 80 [ACK] Seq=400 Ack=389 Win=64128 Len=0 TSval=2356592186 TSecr=3927819027
+
+Frame 164: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth3, id 3
+Ethernet II, Src: 4e:83:fc:5d:2f:1f (4e:83:fc:5d:2f:1f), Dst: 9e:76:f9:99:36:a3 (9e:76:f9:99:36:a3)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 12.12.0.12
+Transmission Control Protocol, Src Port: 60720, Dst Port: 80, Seq: 400, Ack: 389, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    165 0.000931584    0e:6c:d9:5c:66:95     Broadcast             0e:6c:d9:5c:66:95 ARP      60     ff:ff:ff:ff:ff:ff Who has 190.7.231.30? Tell 190.7.231.40
+
+Frame 165: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth1, id 1
+Ethernet II, Src: 0e:6c:d9:5c:66:95 (0e:6c:d9:5c:66:95), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    166 0.001129473    fe:d8:49:5e:7b:a3     0e:6c:d9:5c:66:95     fe:d8:49:5e:7b:a3 ARP      60     0e:6c:d9:5c:66:95 190.7.231.30 is at fe:d8:49:5e:7b:a3
+
+Frame 166: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth1, id 1
+Ethernet II, Src: fe:d8:49:5e:7b:a3 (fe:d8:49:5e:7b:a3), Dst: 0e:6c:d9:5c:66:95 (0e:6c:d9:5c:66:95)
+Address Resolution Protocol (reply)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    167 0.001249306    10.10.0.10            8.8.8.8               0e:6c:d9:5c:66:95 DNS      81     fe:d8:49:5e:7b:a3 Standard query 0x76fd A proxy.tpfinal-tyr.com
+
+Frame 167: 81 bytes on wire (648 bits), 81 bytes captured (648 bits) on interface eth1, id 1
+Ethernet II, Src: 0e:6c:d9:5c:66:95 (0e:6c:d9:5c:66:95), Dst: fe:d8:49:5e:7b:a3 (fe:d8:49:5e:7b:a3)
+Internet Protocol Version 4, Src: 10.10.0.10, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 54540, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    168 0.002368039    8.8.8.8               10.10.0.10            fe:d8:49:5e:7b:a3 DNS      97     0e:6c:d9:5c:66:95 Standard query response 0x76fd A proxy.tpfinal-tyr.com A 10.10.0.1
+
+Frame 168: 97 bytes on wire (776 bits), 97 bytes captured (776 bits) on interface eth1, id 1
+Ethernet II, Src: fe:d8:49:5e:7b:a3 (fe:d8:49:5e:7b:a3), Dst: 0e:6c:d9:5c:66:95 (0e:6c:d9:5c:66:95)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 10.10.0.10
+User Datagram Protocol, Src Port: 53, Dst Port: 54540
+Domain Name System (response)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    169 0.002761131    10.10.0.10            8.8.8.8               0e:6c:d9:5c:66:95 DNS      81     fe:d8:49:5e:7b:a3 Standard query 0xf7fb AAAA proxy.tpfinal-tyr.com
+
+Frame 169: 81 bytes on wire (648 bits), 81 bytes captured (648 bits) on interface eth1, id 1
+Ethernet II, Src: 0e:6c:d9:5c:66:95 (0e:6c:d9:5c:66:95), Dst: fe:d8:49:5e:7b:a3 (fe:d8:49:5e:7b:a3)
+Internet Protocol Version 4, Src: 10.10.0.10, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 54540, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    170 0.003438051    8.8.8.8               10.10.0.10            fe:d8:49:5e:7b:a3 DNS      126    0e:6c:d9:5c:66:95 Standard query response 0xf7fb AAAA proxy.tpfinal-tyr.com SOA dns.tpfinal-tyr.com
+
+Frame 170: 126 bytes on wire (1008 bits), 126 bytes captured (1008 bits) on interface eth1, id 1
+Ethernet II, Src: fe:d8:49:5e:7b:a3 (fe:d8:49:5e:7b:a3), Dst: 0e:6c:d9:5c:66:95 (0e:6c:d9:5c:66:95)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 10.10.0.10
+User Datagram Protocol, Src Port: 53, Dst Port: 54540
+Domain Name System (response)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    171 0.005219067    10.10.0.1             8.8.8.8               0e:6c:d9:5c:66:95 DNS      83     fe:d8:49:5e:7b:a3 Standard query 0xe717 PTR 10.0.10.10.in-addr.arpa
+
+Frame 171: 83 bytes on wire (664 bits), 83 bytes captured (664 bits) on interface eth1, id 1
+Ethernet II, Src: 0e:6c:d9:5c:66:95 (0e:6c:d9:5c:66:95), Dst: fe:d8:49:5e:7b:a3 (fe:d8:49:5e:7b:a3)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 41929, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    172 0.005509017    10.10.0.1             8.8.8.8               0e:6c:d9:5c:66:95 DNS      79     fe:d8:49:5e:7b:a3 Standard query 0xa7e2 A www.tpfinal-tyr.com
+
+Frame 172: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface eth1, id 1
+Ethernet II, Src: 0e:6c:d9:5c:66:95 (0e:6c:d9:5c:66:95), Dst: fe:d8:49:5e:7b:a3 (fe:d8:49:5e:7b:a3)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 41929, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    173 0.006106810    8.8.8.8               10.10.0.1             fe:d8:49:5e:7b:a3 DNS      133    0e:6c:d9:5c:66:95 Standard query response 0xe717 No such name PTR 10.0.10.10.in-addr.arpa SOA 10.IN-ADDR.ARPA
+
+Frame 173: 133 bytes on wire (1064 bits), 133 bytes captured (1064 bits) on interface eth1, id 1
+Ethernet II, Src: fe:d8:49:5e:7b:a3 (fe:d8:49:5e:7b:a3), Dst: 0e:6c:d9:5c:66:95 (0e:6c:d9:5c:66:95)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 10.10.0.1
+User Datagram Protocol, Src Port: 53, Dst Port: 41929
+Domain Name System (response)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    174 0.006410536    8.8.8.8               10.10.0.1             fe:d8:49:5e:7b:a3 DNS      95     0e:6c:d9:5c:66:95 Standard query response 0xa7e2 A www.tpfinal-tyr.com A 12.12.0.11
+
+Frame 174: 95 bytes on wire (760 bits), 95 bytes captured (760 bits) on interface eth1, id 1
+Ethernet II, Src: fe:d8:49:5e:7b:a3 (fe:d8:49:5e:7b:a3), Dst: 0e:6c:d9:5c:66:95 (0e:6c:d9:5c:66:95)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 10.10.0.1
+User Datagram Protocol, Src Port: 53, Dst Port: 41929
+Domain Name System (response)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    175 0.006935293    0e:6c:d9:5c:66:95     Broadcast             0e:6c:d9:5c:66:95 ARP      60     ff:ff:ff:ff:ff:ff Who has 190.7.231.20? Tell 190.7.231.40
+
+Frame 175: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth1, id 1
+Ethernet II, Src: 0e:6c:d9:5c:66:95 (0e:6c:d9:5c:66:95), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    176 0.007025541    da:7a:0c:66:25:5b     0e:6c:d9:5c:66:95     da:7a:0c:66:25:5b ARP      60     0e:6c:d9:5c:66:95 190.7.231.20 is at da:7a:0c:66:25:5b
+
+Frame 176: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth1, id 1
+Ethernet II, Src: da:7a:0c:66:25:5b (da:7a:0c:66:25:5b), Dst: 0e:6c:d9:5c:66:95 (0e:6c:d9:5c:66:95)
+Address Resolution Protocol (reply)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    177 0.007798430    10.10.0.1             12.12.0.11            0e:6c:d9:5c:66:95 TCP      74     da:7a:0c:66:25:5b [TCP Retransmission] 47548 → 80 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 SACK_PERM TSval=1575292112 TSecr=0 WS=128
+
+Frame 177: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface eth1, id 1
+Ethernet II, Src: 0e:6c:d9:5c:66:95 (0e:6c:d9:5c:66:95), Dst: da:7a:0c:66:25:5b (da:7a:0c:66:25:5b)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 12.12.0.11
+Transmission Control Protocol, Src Port: 47548, Dst Port: 80, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    178 0.008392566    12.12.0.11            10.10.0.1             da:7a:0c:66:25:5b TCP      74     0e:6c:d9:5c:66:95 [TCP Retransmission] 80 → 47548 [SYN, ACK] Seq=0 Ack=1 Win=65160 Len=0 MSS=1460 SACK_PERM TSval=1709114237 TSecr=1575292112 WS=128
+
+Frame 178: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface eth1, id 1
+Ethernet II, Src: da:7a:0c:66:25:5b (da:7a:0c:66:25:5b), Dst: 0e:6c:d9:5c:66:95 (0e:6c:d9:5c:66:95)
+Internet Protocol Version 4, Src: 12.12.0.11, Dst: 10.10.0.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 47548, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    179 0.008678258    10.10.0.1             12.12.0.11            0e:6c:d9:5c:66:95 TCP      66     da:7a:0c:66:25:5b 47548 → 80 [ACK] Seq=1 Ack=1 Win=64256 Len=0 TSval=1575292113 TSecr=1709114237
+
+Frame 179: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth1, id 1
+Ethernet II, Src: 0e:6c:d9:5c:66:95 (0e:6c:d9:5c:66:95), Dst: da:7a:0c:66:25:5b (da:7a:0c:66:25:5b)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 12.12.0.11
+Transmission Control Protocol, Src Port: 47548, Dst Port: 80, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    180 0.009247258    10.10.0.1             12.12.0.11            0e:6c:d9:5c:66:95 ICMP     78     da:7a:0c:66:25:5b Echo (ping) request  id=0x4c00, seq=256/1, ttl=63 (reply in 181)
+
+Frame 180: 78 bytes on wire (624 bits), 78 bytes captured (624 bits) on interface eth1, id 1
+Ethernet II, Src: 0e:6c:d9:5c:66:95 (0e:6c:d9:5c:66:95), Dst: da:7a:0c:66:25:5b (da:7a:0c:66:25:5b)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 12.12.0.11
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    181 0.009432883    12.12.0.11            10.10.0.1             da:7a:0c:66:25:5b ICMP     78     0e:6c:d9:5c:66:95 Echo (ping) reply    id=0x4c00, seq=256/1, ttl=63 (request in 180)
+
+Frame 181: 78 bytes on wire (624 bits), 78 bytes captured (624 bits) on interface eth1, id 1
+Ethernet II, Src: da:7a:0c:66:25:5b (da:7a:0c:66:25:5b), Dst: 0e:6c:d9:5c:66:95 (0e:6c:d9:5c:66:95)
+Internet Protocol Version 4, Src: 12.12.0.11, Dst: 10.10.0.1
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    182 0.010956520    10.10.0.1             12.12.0.11            0e:6c:d9:5c:66:95 TCP      413    da:7a:0c:66:25:5b [TCP Retransmission] 47548 → 80 [PSH, ACK] Seq=1 Ack=1 Win=64256 Len=347 TSval=1575292114 TSecr=1709114237
+
+Frame 182: 413 bytes on wire (3304 bits), 413 bytes captured (3304 bits) on interface eth1, id 1
+Ethernet II, Src: 0e:6c:d9:5c:66:95 (0e:6c:d9:5c:66:95), Dst: da:7a:0c:66:25:5b (da:7a:0c:66:25:5b)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 12.12.0.11
+Transmission Control Protocol, Src Port: 47548, Dst Port: 80, Seq: 1, Ack: 1, Len: 347
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    183 0.011232534    12.12.0.11            10.10.0.1             da:7a:0c:66:25:5b TCP      66     0e:6c:d9:5c:66:95 80 → 47548 [ACK] Seq=1 Ack=348 Win=64896 Len=0 TSval=1709114239 TSecr=1575292114
+
+Frame 183: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth1, id 1
+Ethernet II, Src: da:7a:0c:66:25:5b (da:7a:0c:66:25:5b), Dst: 0e:6c:d9:5c:66:95 (0e:6c:d9:5c:66:95)
+Internet Protocol Version 4, Src: 12.12.0.11, Dst: 10.10.0.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 47548, Seq: 1, Ack: 348, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    184 0.011869229    12.12.0.11            10.10.0.1             da:7a:0c:66:25:5b TCP      559    0e:6c:d9:5c:66:95 [TCP Retransmission] 80 → 47548 [PSH, ACK] Seq=1 Ack=348 Win=64896 Len=493 TSval=1709114240 TSecr=1575292114
+
+Frame 184: 559 bytes on wire (4472 bits), 559 bytes captured (4472 bits) on interface eth1, id 1
+Ethernet II, Src: da:7a:0c:66:25:5b (da:7a:0c:66:25:5b), Dst: 0e:6c:d9:5c:66:95 (0e:6c:d9:5c:66:95)
+Internet Protocol Version 4, Src: 12.12.0.11, Dst: 10.10.0.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 47548, Seq: 1, Ack: 348, Len: 493
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    185 0.012054374    12.12.0.11            10.10.0.1             da:7a:0c:66:25:5b TCP      66     0e:6c:d9:5c:66:95 [TCP Retransmission] 80 → 47548 [FIN, ACK] Seq=494 Ack=348 Win=64896 Len=0 TSval=1709114240 TSecr=1575292114
+
+Frame 185: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth1, id 1
+Ethernet II, Src: da:7a:0c:66:25:5b (da:7a:0c:66:25:5b), Dst: 0e:6c:d9:5c:66:95 (0e:6c:d9:5c:66:95)
+Internet Protocol Version 4, Src: 12.12.0.11, Dst: 10.10.0.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 47548, Seq: 494, Ack: 348, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    186 0.012341499    10.10.0.1             12.12.0.11            0e:6c:d9:5c:66:95 TCP      66     da:7a:0c:66:25:5b [TCP Keep-Alive] 47548 → 80 [ACK] Seq=348 Ack=494 Win=64128 Len=0 TSval=1575292117 TSecr=1709114240
+
+Frame 186: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth1, id 1
+Ethernet II, Src: 0e:6c:d9:5c:66:95 (0e:6c:d9:5c:66:95), Dst: da:7a:0c:66:25:5b (da:7a:0c:66:25:5b)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 12.12.0.11
+Transmission Control Protocol, Src Port: 47548, Dst Port: 80, Seq: 348, Ack: 494, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    187 0.020139648    10.10.0.1             12.12.0.11            0e:6c:d9:5c:66:95 TCP      66     da:7a:0c:66:25:5b [TCP Retransmission] 47548 → 80 [FIN, ACK] Seq=348 Ack=494 Win=64128 Len=0 TSval=1575292117 TSecr=1709114240
+
+Frame 187: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth1, id 1
+Ethernet II, Src: 0e:6c:d9:5c:66:95 (0e:6c:d9:5c:66:95), Dst: da:7a:0c:66:25:5b (da:7a:0c:66:25:5b)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 12.12.0.11
+Transmission Control Protocol, Src Port: 47548, Dst Port: 80, Seq: 348, Ack: 494, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    188 0.020335012    12.12.0.11            10.10.0.1             da:7a:0c:66:25:5b TCP      66     0e:6c:d9:5c:66:95 80 → 47548 [ACK] Seq=495 Ack=349 Win=64896 Len=0 TSval=1709114249 TSecr=1575292117
+
+Frame 188: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth1, id 1
+Ethernet II, Src: da:7a:0c:66:25:5b (da:7a:0c:66:25:5b), Dst: 0e:6c:d9:5c:66:95 (0e:6c:d9:5c:66:95)
+Internet Protocol Version 4, Src: 12.12.0.11, Dst: 10.10.0.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 47548, Seq: 495, Ack: 349, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    189 0.021248363    10.10.0.1             12.12.0.11            0e:6c:d9:5c:66:95 TCP      66     da:7a:0c:66:25:5b 47548 → 80 [ACK] Seq=349 Ack=495 Win=64128 Len=0 TSval=1575292118 TSecr=1709114240
+
+Frame 189: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth1, id 1
+Ethernet II, Src: 0e:6c:d9:5c:66:95 (0e:6c:d9:5c:66:95), Dst: da:7a:0c:66:25:5b (da:7a:0c:66:25:5b)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 12.12.0.11
+Transmission Control Protocol, Src Port: 47548, Dst Port: 80, Seq: 349, Ack: 495, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    190 0.028978586    10.10.0.10            8.8.8.8               0e:6c:d9:5c:66:95 DNS      81     fe:d8:49:5e:7b:a3 Standard query 0xbc75 A proxy.tpfinal-tyr.com
+
+Frame 190: 81 bytes on wire (648 bits), 81 bytes captured (648 bits) on interface eth1, id 1
+Ethernet II, Src: 0e:6c:d9:5c:66:95 (0e:6c:d9:5c:66:95), Dst: fe:d8:49:5e:7b:a3 (fe:d8:49:5e:7b:a3)
+Internet Protocol Version 4, Src: 10.10.0.10, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 34664, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    191 0.029368331    8.8.8.8               10.10.0.10            fe:d8:49:5e:7b:a3 DNS      97     0e:6c:d9:5c:66:95 Standard query response 0xbc75 A proxy.tpfinal-tyr.com A 10.10.0.1
+
+Frame 191: 97 bytes on wire (776 bits), 97 bytes captured (776 bits) on interface eth1, id 1
+Ethernet II, Src: fe:d8:49:5e:7b:a3 (fe:d8:49:5e:7b:a3), Dst: 0e:6c:d9:5c:66:95 (0e:6c:d9:5c:66:95)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 10.10.0.10
+User Datagram Protocol, Src Port: 53, Dst Port: 34664
+Domain Name System (response)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    192 0.029794835    10.10.0.10            8.8.8.8               0e:6c:d9:5c:66:95 DNS      81     fe:d8:49:5e:7b:a3 Standard query 0x5476 AAAA proxy.tpfinal-tyr.com
+
+Frame 192: 81 bytes on wire (648 bits), 81 bytes captured (648 bits) on interface eth1, id 1
+Ethernet II, Src: 0e:6c:d9:5c:66:95 (0e:6c:d9:5c:66:95), Dst: fe:d8:49:5e:7b:a3 (fe:d8:49:5e:7b:a3)
+Internet Protocol Version 4, Src: 10.10.0.10, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 34664, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    193 0.030045442    8.8.8.8               10.10.0.10            fe:d8:49:5e:7b:a3 DNS      126    0e:6c:d9:5c:66:95 Standard query response 0x5476 AAAA proxy.tpfinal-tyr.com SOA dns.tpfinal-tyr.com
+
+Frame 193: 126 bytes on wire (1008 bits), 126 bytes captured (1008 bits) on interface eth1, id 1
+Ethernet II, Src: fe:d8:49:5e:7b:a3 (fe:d8:49:5e:7b:a3), Dst: 0e:6c:d9:5c:66:95 (0e:6c:d9:5c:66:95)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 10.10.0.10
+User Datagram Protocol, Src Port: 53, Dst Port: 34664
+Domain Name System (response)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    194 0.031607270    10.10.0.1             8.8.8.8               0e:6c:d9:5c:66:95 DNS      81     fe:d8:49:5e:7b:a3 Standard query 0x44e0 A datos.tpfinal-tyr.com
+
+Frame 194: 81 bytes on wire (648 bits), 81 bytes captured (648 bits) on interface eth1, id 1
+Ethernet II, Src: 0e:6c:d9:5c:66:95 (0e:6c:d9:5c:66:95), Dst: fe:d8:49:5e:7b:a3 (fe:d8:49:5e:7b:a3)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 41929, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    195 0.031772297    8.8.8.8               10.10.0.1             fe:d8:49:5e:7b:a3 DNS      97     0e:6c:d9:5c:66:95 Standard query response 0x44e0 A datos.tpfinal-tyr.com A 12.12.0.12
+
+Frame 195: 97 bytes on wire (776 bits), 97 bytes captured (776 bits) on interface eth1, id 1
+Ethernet II, Src: fe:d8:49:5e:7b:a3 (fe:d8:49:5e:7b:a3), Dst: 0e:6c:d9:5c:66:95 (0e:6c:d9:5c:66:95)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 10.10.0.1
+User Datagram Protocol, Src Port: 53, Dst Port: 41929
+Domain Name System (response)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    196 0.032920004    10.10.0.1             12.12.0.12            0e:6c:d9:5c:66:95 TCP      74     da:7a:0c:66:25:5b [TCP Retransmission] 60712 → 80 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 SACK_PERM TSval=2356592128 TSecr=0 WS=128
+
+Frame 196: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface eth1, id 1
+Ethernet II, Src: 0e:6c:d9:5c:66:95 (0e:6c:d9:5c:66:95), Dst: da:7a:0c:66:25:5b (da:7a:0c:66:25:5b)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 12.12.0.12
+Transmission Control Protocol, Src Port: 60712, Dst Port: 80, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    197 0.033013098    12.12.0.12            10.10.0.1             da:7a:0c:66:25:5b TCP      74     0e:6c:d9:5c:66:95 [TCP Retransmission] 80 → 60712 [SYN, ACK] Seq=0 Ack=1 Win=65160 Len=0 MSS=1460 SACK_PERM TSval=3927818970 TSecr=2356592128 WS=128
+
+Frame 197: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface eth1, id 1
+Ethernet II, Src: da:7a:0c:66:25:5b (da:7a:0c:66:25:5b), Dst: 0e:6c:d9:5c:66:95 (0e:6c:d9:5c:66:95)
+Internet Protocol Version 4, Src: 12.12.0.12, Dst: 10.10.0.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 60712, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    198 0.033940174    10.10.0.1             12.12.0.12            0e:6c:d9:5c:66:95 TCP      66     da:7a:0c:66:25:5b 60712 → 80 [ACK] Seq=1 Ack=1 Win=64256 Len=0 TSval=2356592129 TSecr=3927818970
+
+Frame 198: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth1, id 1
+Ethernet II, Src: 0e:6c:d9:5c:66:95 (0e:6c:d9:5c:66:95), Dst: da:7a:0c:66:25:5b (da:7a:0c:66:25:5b)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 12.12.0.12
+Transmission Control Protocol, Src Port: 60712, Dst Port: 80, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    199 0.035683429    10.10.0.1             12.12.0.12            0e:6c:d9:5c:66:95 TCP      463    da:7a:0c:66:25:5b [TCP Retransmission] 60712 → 80 [PSH, ACK] Seq=1 Ack=1 Win=64256 Len=397 TSval=2356592129 TSecr=3927818970
+
+Frame 199: 463 bytes on wire (3704 bits), 463 bytes captured (3704 bits) on interface eth1, id 1
+Ethernet II, Src: 0e:6c:d9:5c:66:95 (0e:6c:d9:5c:66:95), Dst: da:7a:0c:66:25:5b (da:7a:0c:66:25:5b)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 12.12.0.12
+Transmission Control Protocol, Src Port: 60712, Dst Port: 80, Seq: 1, Ack: 1, Len: 397
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    200 0.035778557    12.12.0.12            10.10.0.1             da:7a:0c:66:25:5b TCP      66     0e:6c:d9:5c:66:95 80 → 60712 [ACK] Seq=1 Ack=398 Win=64768 Len=0 TSval=3927818972 TSecr=2356592129
+
+Frame 200: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth1, id 1
+Ethernet II, Src: da:7a:0c:66:25:5b (da:7a:0c:66:25:5b), Dst: 0e:6c:d9:5c:66:95 (0e:6c:d9:5c:66:95)
+Internet Protocol Version 4, Src: 12.12.0.12, Dst: 10.10.0.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 60712, Seq: 1, Ack: 398, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    201 0.035870898    12.12.0.12            10.10.0.1             da:7a:0c:66:25:5b TCP      891    0e:6c:d9:5c:66:95 [TCP Retransmission] 80 → 60712 [PSH, ACK] Seq=1 Ack=398 Win=64768 Len=825 TSval=3927818972 TSecr=2356592129
+
+Frame 201: 891 bytes on wire (7128 bits), 891 bytes captured (7128 bits) on interface eth1, id 1
+Ethernet II, Src: da:7a:0c:66:25:5b (da:7a:0c:66:25:5b), Dst: 0e:6c:d9:5c:66:95 (0e:6c:d9:5c:66:95)
+Internet Protocol Version 4, Src: 12.12.0.12, Dst: 10.10.0.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 60712, Seq: 1, Ack: 398, Len: 825
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    202 0.035972708    12.12.0.12            10.10.0.1             da:7a:0c:66:25:5b TCP      66     0e:6c:d9:5c:66:95 [TCP Retransmission] 80 → 60712 [FIN, ACK] Seq=826 Ack=398 Win=64768 Len=0 TSval=3927818972 TSecr=2356592129
+
+Frame 202: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth1, id 1
+Ethernet II, Src: da:7a:0c:66:25:5b (da:7a:0c:66:25:5b), Dst: 0e:6c:d9:5c:66:95 (0e:6c:d9:5c:66:95)
+Internet Protocol Version 4, Src: 12.12.0.12, Dst: 10.10.0.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 60712, Seq: 826, Ack: 398, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    203 0.036967510    10.10.0.1             12.12.0.12            0e:6c:d9:5c:66:95 TCP      66     da:7a:0c:66:25:5b [TCP Keep-Alive] 60712 → 80 [ACK] Seq=398 Ack=826 Win=64128 Len=0 TSval=2356592132 TSecr=3927818972
+
+Frame 203: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth1, id 1
+Ethernet II, Src: 0e:6c:d9:5c:66:95 (0e:6c:d9:5c:66:95), Dst: da:7a:0c:66:25:5b (da:7a:0c:66:25:5b)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 12.12.0.12
+Transmission Control Protocol, Src Port: 60712, Dst Port: 80, Seq: 398, Ack: 826, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    204 0.037417097    10.10.0.1             12.12.0.12            0e:6c:d9:5c:66:95 TCP      66     da:7a:0c:66:25:5b [TCP Retransmission] 60712 → 80 [FIN, ACK] Seq=398 Ack=826 Win=64128 Len=0 TSval=2356592132 TSecr=3927818972
+
+Frame 204: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth1, id 1
+Ethernet II, Src: 0e:6c:d9:5c:66:95 (0e:6c:d9:5c:66:95), Dst: da:7a:0c:66:25:5b (da:7a:0c:66:25:5b)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 12.12.0.12
+Transmission Control Protocol, Src Port: 60712, Dst Port: 80, Seq: 398, Ack: 826, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    205 0.037510381    12.12.0.12            10.10.0.1             da:7a:0c:66:25:5b TCP      66     0e:6c:d9:5c:66:95 80 → 60712 [ACK] Seq=827 Ack=399 Win=64768 Len=0 TSval=3927818975 TSecr=2356592132
+
+Frame 205: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth1, id 1
+Ethernet II, Src: da:7a:0c:66:25:5b (da:7a:0c:66:25:5b), Dst: 0e:6c:d9:5c:66:95 (0e:6c:d9:5c:66:95)
+Internet Protocol Version 4, Src: 12.12.0.12, Dst: 10.10.0.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 60712, Seq: 827, Ack: 399, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    206 0.046633988    10.10.0.1             12.12.0.12            0e:6c:d9:5c:66:95 TCP      66     da:7a:0c:66:25:5b 60712 → 80 [ACK] Seq=399 Ack=827 Win=64128 Len=0 TSval=2356592132 TSecr=3927818972
+
+Frame 206: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth1, id 1
+Ethernet II, Src: 0e:6c:d9:5c:66:95 (0e:6c:d9:5c:66:95), Dst: da:7a:0c:66:25:5b (da:7a:0c:66:25:5b)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 12.12.0.12
+Transmission Control Protocol, Src Port: 60712, Dst Port: 80, Seq: 399, Ack: 827, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    207 0.059944832    10.10.0.10            8.8.8.8               0e:6c:d9:5c:66:95 DNS      81     fe:d8:49:5e:7b:a3 Standard query 0xaf0c A proxy.tpfinal-tyr.com
+
+Frame 207: 81 bytes on wire (648 bits), 81 bytes captured (648 bits) on interface eth1, id 1
+Ethernet II, Src: 0e:6c:d9:5c:66:95 (0e:6c:d9:5c:66:95), Dst: fe:d8:49:5e:7b:a3 (fe:d8:49:5e:7b:a3)
+Internet Protocol Version 4, Src: 10.10.0.10, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 40876, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    208 0.060323828    8.8.8.8               10.10.0.10            fe:d8:49:5e:7b:a3 DNS      97     0e:6c:d9:5c:66:95 Standard query response 0xaf0c A proxy.tpfinal-tyr.com A 10.10.0.1
+
+Frame 208: 97 bytes on wire (776 bits), 97 bytes captured (776 bits) on interface eth1, id 1
+Ethernet II, Src: fe:d8:49:5e:7b:a3 (fe:d8:49:5e:7b:a3), Dst: 0e:6c:d9:5c:66:95 (0e:6c:d9:5c:66:95)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 10.10.0.10
+User Datagram Protocol, Src Port: 53, Dst Port: 40876
+Domain Name System (response)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    209 0.060879933    10.10.0.10            8.8.8.8               0e:6c:d9:5c:66:95 DNS      81     fe:d8:49:5e:7b:a3 Standard query 0x2602 AAAA proxy.tpfinal-tyr.com
+
+Frame 209: 81 bytes on wire (648 bits), 81 bytes captured (648 bits) on interface eth1, id 1
+Ethernet II, Src: 0e:6c:d9:5c:66:95 (0e:6c:d9:5c:66:95), Dst: fe:d8:49:5e:7b:a3 (fe:d8:49:5e:7b:a3)
+Internet Protocol Version 4, Src: 10.10.0.10, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 40876, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    210 0.061005928    8.8.8.8               10.10.0.10            fe:d8:49:5e:7b:a3 DNS      126    0e:6c:d9:5c:66:95 Standard query response 0x2602 AAAA proxy.tpfinal-tyr.com SOA dns.tpfinal-tyr.com
+
+Frame 210: 126 bytes on wire (1008 bits), 126 bytes captured (1008 bits) on interface eth1, id 1
+Ethernet II, Src: fe:d8:49:5e:7b:a3 (fe:d8:49:5e:7b:a3), Dst: 0e:6c:d9:5c:66:95 (0e:6c:d9:5c:66:95)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 10.10.0.10
+User Datagram Protocol, Src Port: 53, Dst Port: 40876
+Domain Name System (response)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    211 0.062543521    10.10.0.1             12.12.0.12            0e:6c:d9:5c:66:95 TCP      74     da:7a:0c:66:25:5b [TCP Retransmission] 60720 → 80 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 SACK_PERM TSval=2356592158 TSecr=0 WS=128
+
+Frame 211: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface eth1, id 1
+Ethernet II, Src: 0e:6c:d9:5c:66:95 (0e:6c:d9:5c:66:95), Dst: da:7a:0c:66:25:5b (da:7a:0c:66:25:5b)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 12.12.0.12
+Transmission Control Protocol, Src Port: 60720, Dst Port: 80, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    212 0.062866542    12.12.0.12            10.10.0.1             da:7a:0c:66:25:5b TCP      74     0e:6c:d9:5c:66:95 [TCP Retransmission] 80 → 60720 [SYN, ACK] Seq=0 Ack=1 Win=65160 Len=0 MSS=1460 SACK_PERM TSval=3927819000 TSecr=2356592158 WS=128
+
+Frame 212: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface eth1, id 1
+Ethernet II, Src: da:7a:0c:66:25:5b (da:7a:0c:66:25:5b), Dst: 0e:6c:d9:5c:66:95 (0e:6c:d9:5c:66:95)
+Internet Protocol Version 4, Src: 12.12.0.12, Dst: 10.10.0.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 60720, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    213 0.063292114    10.10.0.1             12.12.0.12            0e:6c:d9:5c:66:95 TCP      66     da:7a:0c:66:25:5b 60720 → 80 [ACK] Seq=1 Ack=1 Win=64256 Len=0 TSval=2356592158 TSecr=3927819000
+
+Frame 213: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth1, id 1
+Ethernet II, Src: 0e:6c:d9:5c:66:95 (0e:6c:d9:5c:66:95), Dst: da:7a:0c:66:25:5b (da:7a:0c:66:25:5b)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 12.12.0.12
+Transmission Control Protocol, Src Port: 60720, Dst Port: 80, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    214 0.063560674    10.10.0.1             12.12.0.12            0e:6c:d9:5c:66:95 TCP      464    da:7a:0c:66:25:5b [TCP Retransmission] 60720 → 80 [PSH, ACK] Seq=1 Ack=1 Win=64256 Len=398 TSval=2356592159 TSecr=3927819000
+
+Frame 214: 464 bytes on wire (3712 bits), 464 bytes captured (3712 bits) on interface eth1, id 1
+Ethernet II, Src: 0e:6c:d9:5c:66:95 (0e:6c:d9:5c:66:95), Dst: da:7a:0c:66:25:5b (da:7a:0c:66:25:5b)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 12.12.0.12
+Transmission Control Protocol, Src Port: 60720, Dst Port: 80, Seq: 1, Ack: 1, Len: 398
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    215 0.069473844    12.12.0.12            10.10.0.1             da:7a:0c:66:25:5b TCP      66     0e:6c:d9:5c:66:95 80 → 60720 [ACK] Seq=1 Ack=399 Win=64768 Len=0 TSval=3927819001 TSecr=2356592159
+
+Frame 215: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth1, id 1
+Ethernet II, Src: da:7a:0c:66:25:5b (da:7a:0c:66:25:5b), Dst: 0e:6c:d9:5c:66:95 (0e:6c:d9:5c:66:95)
+Internet Protocol Version 4, Src: 12.12.0.12, Dst: 10.10.0.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 60720, Seq: 1, Ack: 399, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    216 0.070588520    12.12.0.12            10.10.0.1             da:7a:0c:66:25:5b TCP      453    0e:6c:d9:5c:66:95 [TCP Retransmission] 80 → 60720 [PSH, ACK] Seq=1 Ack=399 Win=64768 Len=387 TSval=3927819008 TSecr=2356592159
+
+Frame 216: 453 bytes on wire (3624 bits), 453 bytes captured (3624 bits) on interface eth1, id 1
+Ethernet II, Src: da:7a:0c:66:25:5b (da:7a:0c:66:25:5b), Dst: 0e:6c:d9:5c:66:95 (0e:6c:d9:5c:66:95)
+Internet Protocol Version 4, Src: 12.12.0.12, Dst: 10.10.0.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 60720, Seq: 1, Ack: 399, Len: 387
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    217 0.071230455    10.10.0.1             12.12.0.12            0e:6c:d9:5c:66:95 TCP      66     da:7a:0c:66:25:5b [TCP Keep-Alive] 60720 → 80 [ACK] Seq=399 Ack=388 Win=64128 Len=0 TSval=2356592166 TSecr=3927819008
+
+Frame 217: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth1, id 1
+Ethernet II, Src: 0e:6c:d9:5c:66:95 (0e:6c:d9:5c:66:95), Dst: da:7a:0c:66:25:5b (da:7a:0c:66:25:5b)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 12.12.0.12
+Transmission Control Protocol, Src Port: 60720, Dst Port: 80, Seq: 399, Ack: 388, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    218 0.071498845    10.10.0.1             12.12.0.12            0e:6c:d9:5c:66:95 TCP      66     da:7a:0c:66:25:5b [TCP Retransmission] 60720 → 80 [FIN, ACK] Seq=399 Ack=388 Win=64128 Len=0 TSval=2356592166 TSecr=3927819008
+
+Frame 218: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth1, id 1
+Ethernet II, Src: 0e:6c:d9:5c:66:95 (0e:6c:d9:5c:66:95), Dst: da:7a:0c:66:25:5b (da:7a:0c:66:25:5b)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 12.12.0.12
+Transmission Control Protocol, Src Port: 60720, Dst Port: 80, Seq: 399, Ack: 388, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    219 0.090226003    12.12.0.12            10.10.0.1             da:7a:0c:66:25:5b TCP      66     0e:6c:d9:5c:66:95 [TCP Retransmission] 80 → 60720 [FIN, ACK] Seq=388 Ack=400 Win=64768 Len=0 TSval=3927819027 TSecr=2356592166
+
+Frame 219: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth1, id 1
+Ethernet II, Src: da:7a:0c:66:25:5b (da:7a:0c:66:25:5b), Dst: 0e:6c:d9:5c:66:95 (0e:6c:d9:5c:66:95)
+Internet Protocol Version 4, Src: 12.12.0.12, Dst: 10.10.0.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 60720, Seq: 388, Ack: 400, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    220 0.090517997    10.10.0.1             12.12.0.12            0e:6c:d9:5c:66:95 TCP      66     da:7a:0c:66:25:5b 60720 → 80 [ACK] Seq=400 Ack=389 Win=64128 Len=0 TSval=2356592186 TSecr=3927819027
+
+Frame 220: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface eth1, id 1
+Ethernet II, Src: 0e:6c:d9:5c:66:95 (0e:6c:d9:5c:66:95), Dst: da:7a:0c:66:25:5b (da:7a:0c:66:25:5b)
+Internet Protocol Version 4, Src: 10.10.0.1, Dst: 12.12.0.12
+Transmission Control Protocol, Src Port: 60720, Dst Port: 80, Seq: 400, Ack: 389, Len: 0
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    221 5.127655918    d6:a1:12:c1:81:dd     5a:6a:8b:8c:c7:96     d6:a1:12:c1:81:dd ARP      60     5a:6a:8b:8c:c7:96 Who has 8.8.8.1? Tell 8.8.8.8
+
+Frame 221: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth2, id 2
+Ethernet II, Src: d6:a1:12:c1:81:dd (d6:a1:12:c1:81:dd), Dst: 5a:6a:8b:8c:c7:96 (5a:6a:8b:8c:c7:96)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    222 5.128141312    5a:6a:8b:8c:c7:96     d6:a1:12:c1:81:dd     5a:6a:8b:8c:c7:96 ARP      60     d6:a1:12:c1:81:dd 8.8.8.1 is at 5a:6a:8b:8c:c7:96
+
+Frame 222: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth2, id 2
+Ethernet II, Src: 5a:6a:8b:8c:c7:96 (5a:6a:8b:8c:c7:96), Dst: d6:a1:12:c1:81:dd (d6:a1:12:c1:81:dd)
+Address Resolution Protocol (reply)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    223 5.127534121    fe:d8:49:5e:7b:a3     0e:6c:d9:5c:66:95     fe:d8:49:5e:7b:a3 ARP      60     0e:6c:d9:5c:66:95 Who has 190.7.231.40? Tell 190.7.231.30
+
+Frame 223: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth1, id 1
+Ethernet II, Src: fe:d8:49:5e:7b:a3 (fe:d8:49:5e:7b:a3), Dst: 0e:6c:d9:5c:66:95 (0e:6c:d9:5c:66:95)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    224 5.127540563    da:7a:0c:66:25:5b     0e:6c:d9:5c:66:95     da:7a:0c:66:25:5b ARP      60     0e:6c:d9:5c:66:95 Who has 190.7.231.40? Tell 190.7.231.20
+
+Frame 224: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth1, id 1
+Ethernet II, Src: da:7a:0c:66:25:5b (da:7a:0c:66:25:5b), Dst: 0e:6c:d9:5c:66:95 (0e:6c:d9:5c:66:95)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    225 5.128015327    0e:6c:d9:5c:66:95     fe:d8:49:5e:7b:a3     0e:6c:d9:5c:66:95 ARP      60     fe:d8:49:5e:7b:a3 190.7.231.40 is at 0e:6c:d9:5c:66:95
+
+Frame 225: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth1, id 1
+Ethernet II, Src: 0e:6c:d9:5c:66:95 (0e:6c:d9:5c:66:95), Dst: fe:d8:49:5e:7b:a3 (fe:d8:49:5e:7b:a3)
+Address Resolution Protocol (reply)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    226 5.128020447    0e:6c:d9:5c:66:95     da:7a:0c:66:25:5b     0e:6c:d9:5c:66:95 ARP      60     da:7a:0c:66:25:5b 190.7.231.40 is at 0e:6c:d9:5c:66:95
+
+Frame 226: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth1, id 1
+Ethernet II, Src: 0e:6c:d9:5c:66:95 (0e:6c:d9:5c:66:95), Dst: da:7a:0c:66:25:5b (da:7a:0c:66:25:5b)
+Address Resolution Protocol (reply)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    227 5.127833649    6a:94:a9:bd:77:91     4e:83:fc:5d:2f:1f     6a:94:a9:bd:77:91 ARP      60     4e:83:fc:5d:2f:1f Who has 12.12.0.1? Tell 12.12.0.11
+
+Frame 227: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth3, id 3
+Ethernet II, Src: 6a:94:a9:bd:77:91 (6a:94:a9:bd:77:91), Dst: 4e:83:fc:5d:2f:1f (4e:83:fc:5d:2f:1f)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    228 5.127838708    9e:76:f9:99:36:a3     4e:83:fc:5d:2f:1f     9e:76:f9:99:36:a3 ARP      60     4e:83:fc:5d:2f:1f Who has 12.12.0.1? Tell 12.12.0.12
+
+Frame 228: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth3, id 3
+Ethernet II, Src: 9e:76:f9:99:36:a3 (9e:76:f9:99:36:a3), Dst: 4e:83:fc:5d:2f:1f (4e:83:fc:5d:2f:1f)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    229 5.128282825    4e:83:fc:5d:2f:1f     6a:94:a9:bd:77:91     4e:83:fc:5d:2f:1f ARP      60     6a:94:a9:bd:77:91 12.12.0.1 is at 4e:83:fc:5d:2f:1f
+
+Frame 229: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth3, id 3
+Ethernet II, Src: 4e:83:fc:5d:2f:1f (4e:83:fc:5d:2f:1f), Dst: 6a:94:a9:bd:77:91 (6a:94:a9:bd:77:91)
+Address Resolution Protocol (reply)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    230 5.128286963    4e:83:fc:5d:2f:1f     9e:76:f9:99:36:a3     4e:83:fc:5d:2f:1f ARP      60     9e:76:f9:99:36:a3 12.12.0.1 is at 4e:83:fc:5d:2f:1f
+
+Frame 230: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth3, id 3
+Ethernet II, Src: 4e:83:fc:5d:2f:1f (4e:83:fc:5d:2f:1f), Dst: 9e:76:f9:99:36:a3 (9e:76:f9:99:36:a3)
+Address Resolution Protocol (reply)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    231 5.128381189    b6:0c:f9:58:64:27     2a:89:5b:62:44:f2     b6:0c:f9:58:64:27 ARP      60     2a:89:5b:62:44:f2 Who has 10.10.0.1? Tell 10.10.0.100
+
+Frame 231: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: b6:0c:f9:58:64:27 (b6:0c:f9:58:64:27), Dst: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    232 5.128513805    2a:89:5b:62:44:f2     a2:19:52:a1:10:1a     2a:89:5b:62:44:f2 ARP      60     a2:19:52:a1:10:1a Who has 10.10.0.10? Tell 10.10.0.1
+
+Frame 232: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2), Dst: a2:19:52:a1:10:1a (a2:19:52:a1:10:1a)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    233 5.128606749    a2:19:52:a1:10:1a     2a:89:5b:62:44:f2     a2:19:52:a1:10:1a ARP      60     2a:89:5b:62:44:f2 10.10.0.10 is at a2:19:52:a1:10:1a
+
+Frame 233: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: a2:19:52:a1:10:1a (a2:19:52:a1:10:1a), Dst: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2)
+Address Resolution Protocol (reply)
+
+No.     Time           Source                Destination           MAC src    Protocol Length MAC dst    Info
+    234 5.128688080    2a:89:5b:62:44:f2     b6:0c:f9:58:64:27     2a:89:5b:62:44:f2 ARP      60     b6:0c:f9:58:64:27 10.10.0.1 is at 2a:89:5b:62:44:f2
+
+Frame 234: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: 2a:89:5b:62:44:f2 (2a:89:5b:62:44:f2), Dst: b6:0c:f9:58:64:27 (b6:0c:f9:58:64:27)
+Address Resolution Protocol (reply)
